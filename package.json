@@ -41,7 +41,7 @@
   ],
   "version": "1.0.0",
   "description": "Pet-oriented frontend only website",
-  "main": "index.js",
+  "main": "src/main.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alecbuivhp/ui-project-perapy.git"
