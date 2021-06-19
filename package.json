@@ -1,6 +1,5 @@
 {
-  "name": "",
-  "version": "",
+  "name": "ui-project-perapy",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -40,6 +39,23 @@
     "last 2 versions",
     "not dead"
   ],
-  "_id": "@",
-  "readme": "ERROR: No README data found!"
+  "version": "1.0.0",
+  "description": "Pet-oriented frontend only website",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecbuivhp/ui-project-perapy.git"
+  },
+  "keywords": [
+    "pet",
+    "web",
+    "vuejs",
+    "tailwindcss"
+  ],
+  "author": "Perapy Team @ HCMUS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alecbuivhp/ui-project-perapy/issues"
+  },
+  "homepage": "https://github.com/alecbuivhp/ui-project-perapy#readme"
 }
