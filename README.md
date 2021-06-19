@@ -54,4 +54,3 @@ Don't use this at the moment
 ```
 npm run lint
 ```
-This is new pull req!
