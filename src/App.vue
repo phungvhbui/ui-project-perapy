@@ -16,6 +16,6 @@ export default {
 
 <style scoped>
 .app {
-  text-align: center;
+  @apply text-center;
 }
 </style>
