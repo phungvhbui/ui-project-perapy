@@ -1,14 +1,14 @@
 <template>
   <footer>
     <div id="container">
-      <div id="left-col">
+      <div id="dev__info">
         <img src="https://avatars.githubusercontent.com/u/47271466?s=48&v=4" />
         <h1>Perapy</h1>
         <div>@FitHCMUS - 18KTPM - Group06</div>
       </div>
-      <div id="right-col">
-        <div>Terms of service</div>
-        <div>Liscense</div>
+      <div id="dev__links">
+        <a id="terms__of__service">Terms of service</a>
+        <a id="liscense">Liscense</a>
         <a><i class="fab fa-facebook-f"/></a>
         <a><i class="fab fa-google"/></a>
         <a><i class="fab fa-twitter"/></a>
@@ -54,7 +54,7 @@ footer {
   @apply flex flex-row justify-between;
 }
 
-#left-col {
+#dev__info {
   /* Grid */
   @apply grid grid-cols-2 grid-rows-2;
 
@@ -62,7 +62,7 @@ footer {
   @apply mt-4;
 }
 
-#left-col img {
+#dev__info img {
   /* Sizing */
   @apply w-16 h-16;
 
@@ -70,7 +70,7 @@ footer {
   @apply self-center justify-self-center;
 }
 
-#left-col h1 {
+#dev__info h1 {
   /* Alignment */
   @apply self-center;
 
@@ -82,7 +82,7 @@ footer {
   @apply font-bold;
 }
 
-#left-col div {
+#dev__info div {
   /* Grid */
   @apply col-span-2;
 
@@ -97,7 +97,7 @@ footer {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#right-col {
+#dev__links {
   /* Flex */
   @apply flex flex-row justify-between;
 
@@ -124,7 +124,8 @@ footer {
   }
 }
 
-#right-col div {
+
+#dev__links a {
   /* Margin */
   @apply mr-6;
 
@@ -136,31 +137,7 @@ footer {
   animation-duration: 0.2s;
 }
 
-#right-col a {
-  /* Margin */
-  @apply mr-6;
-
-  /* Alignment */
-  @apply self-center;
-
-  /* Animation */
-  animation-name: hoverOff;
-  animation-duration: 0.2s;
-}
-
-#right-col div:hover {
-  /* Cursor */
-  @apply cursor-pointer;
-
-  /* Color */
-  color: white;
-
-  /* Animation */
-  animation-name: hoverOn;
-  animation-duration: 0.2s;
-}
-
-#right-col a:hover {
+#dev__links a:hover {
   /* Animation */
   animation-name: hoverOn;
   animation-duration: 0.2s;
