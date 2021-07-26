@@ -1,23 +1,26 @@
 <template>
-    <div id="navbar">
-        <div id="container">
-            <div id="logo">
-                <h1>Perapy</h1>
-            </div>
-            <div id="topics">
-                <div>Home</div>
-                <div>Pet Therapy</div>
-                <div>Products</div>
-                <div>Services</div>
-            </div>
-            <div id="userPref">
-                <a><img src="https://i.pinimg.com/originals/f6/70/a8/f670a8875997412b46cea057e2ba7aae.png"></a>
-                <div id="dropdown">
-                    <i class="fas fa-angle-down"></i>
+    <header>
+        <nav class="navbar">
+            <div class="header-container">
+                <div class="logo">
+                    <h1>Perapy</h1>
+                </div>
+                <div class="topics">
+                    <div>Home</div>
+                    <div>Pet Therapy</div>
+                    <div>Products</div>
+                    <div>Services</div>
+                </div>
+                <div class="userPref">
+                    <a><img src="https://i.pinimg.com/originals/f6/70/a8/f670a8875997412b46cea057e2ba7aae.png"></a>
+                    <div class="dropdown">
+                        <i class="fas fa-angle-down"></i>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </nav>
+    </header>
+    
 </template>
 
 <script>
@@ -33,7 +36,7 @@ export default {
 
 <style scoped>
 
-#navbar {
+.navbar {
     /**Background */
     background-image: linear-gradient(
         to right,
@@ -48,7 +51,7 @@ export default {
     @apply absolute top-0;
 }
 
-#container {
+.header-container {
     /**Margin */
     @apply my-2 mx-2;
 
@@ -56,7 +59,7 @@ export default {
     @apply flex justify-between; 
 }
 
-#logo h1{
+.logo h1{
     /**Alignment */
     @apply self-center;
 
@@ -67,12 +70,12 @@ export default {
     font-family: "Quicksand", sans-serif;
 }
 
-#topics {
+.topics {
     /**Flex */
     @apply flex flex-row items-center;
 }
 
-#topics div {
+.topics div {
     /**Grid */
     @apply col-span-1;
 
@@ -84,12 +87,12 @@ export default {
     @apply mx-20 my-2;
 }
 
-#userPref {
+.userPref {
     /**Flex */
     @apply flex items-center;
 }
 
-#userPref a img {
+.userPref a img {
     /**Sizing */
     @apply w-9 h-9 rounded-full;
 
@@ -97,7 +100,7 @@ export default {
     @apply self-center;
 }
 
-#userPref #dropdown {
+.userPref .dropdown {
     /**Margin */
     @apply mx-2;
 }
@@ -119,7 +122,7 @@ export default {
   }
 }
 
-#topics div:hover {
+.topics div:hover {
   /**Cursor */
   @apply cursor-pointer;
   
@@ -131,7 +134,7 @@ export default {
   animation-duration: 0.2s;
 }
 
-#userPref div:hover {
+.userPref div:hover {
   /**Cursor */
   @apply cursor-pointer;
   
