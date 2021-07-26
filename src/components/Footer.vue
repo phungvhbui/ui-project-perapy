@@ -1,13 +1,13 @@
 <template>
   <footer>
-    <div class="container">
+    <div class="footer-container">
       <div class="dev-info">
         <img class="web-logo" src="https://avatars.githubusercontent.com/u/47271466?s=48&v=4" />
         <h1 class="web-name">Perapy</h1>
-        <div class="credit">@FitHCMUS - 18KTPM - Group06</div>
+        <div class="web-credit">@FitHCMUS - 18KTPM - Group06</div>
       </div>
-      <div class="dev__links">
-        <a class="terms__of__service">Terms of service</a>
+      <div class="dev-links">
+        <a class="terms-of-service">Terms of service</a>
         <a class="liscense">Liscense</a>
         <a><i class="fab fa-facebook-f"/></a>
         <a><i class="fab fa-google"/></a>
@@ -46,7 +46,7 @@ footer {
   @apply absolute bottom-0;
 }
 
-.container {
+.footer-container {
   /* Margin */
   @apply my-4 mx-12;
 
@@ -54,7 +54,7 @@ footer {
   @apply flex flex-row justify-between;
 }
 
-.dev__info {
+.dev-info {
   /* Grid */
   @apply grid grid-cols-2 grid-rows-2;
 
@@ -82,7 +82,7 @@ footer {
   @apply font-bold;
 }
 
-.credit {
+.web-credit {
   /* Grid */
   @apply col-span-2;
 
@@ -97,7 +97,7 @@ footer {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.dev__links {
+.dev-links {
   /* Flex */
   @apply flex flex-row justify-between;
 
@@ -125,7 +125,7 @@ footer {
 }
 
 
-.dev__links a {
+.dev-links a {
   /* Margin */
   @apply mr-6;
 
@@ -137,7 +137,7 @@ footer {
   animation-duration: 0.2s;
 }
 
-.dev__links a:hover {
+.dev-links a:hover {
   /* Animation */
   animation-name: hoverOn;
   animation-duration: 0.2s;
