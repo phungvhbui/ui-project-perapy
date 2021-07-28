@@ -1,11 +1,9 @@
 <template>
   <div class="app">
-    <Footer/>
   </div>
 </template>
 
 <script>
-import Footer from './components/Footer.vue'
 export default {
   data() {
     return {
@@ -13,7 +11,6 @@ export default {
     };
   },
   components: {
-    Footer,
   },
 
 };
@@ -37,5 +34,6 @@ export default {
 
 .app {
   @apply text-center;
+  @apply overflow-auto;
 }
 </style>

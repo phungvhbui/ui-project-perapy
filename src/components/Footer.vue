@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="footer">
     <div class="footer-container">
       <div class="dev-info">
         <img class="web-logo" src="https://avatars.githubusercontent.com/u/47271466?s=48&v=4" />
@@ -43,7 +43,10 @@ footer {
   @apply w-full h-40;
 
   /* Positioning */
-  @apply absolute bottom-0;
+  @apply absolute;
+
+  /* Margin */
+  @apply mt-8;
 }
 
 .footer-container {
