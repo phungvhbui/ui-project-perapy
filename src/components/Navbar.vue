@@ -8,7 +8,7 @@
                 <div class="topics">
                     <div>Home</div>
                     <div>Pet Therapy</div>
-                    <div>Products</div>
+                    <div class="selected_content">Products</div>
                     <div>Services</div>
                 </div>
                 <div class="userPref">
@@ -45,7 +45,7 @@ export default {
     );
 
     /**Size */
-    @apply w-full h-16;
+    @apply w-full h-12;
 
     /**Position */
     @apply absolute top-0;
@@ -53,7 +53,7 @@ export default {
 
 .header-container {
     /**Margin */
-    @apply my-2 mx-2;
+    @apply my-1 mx-1;
 
     /**Flex */
     @apply flex justify-between; 
@@ -63,8 +63,11 @@ export default {
     /**Alignment */
     @apply self-center;
 
+    /**Margin */
+    @apply ml-1;
+
     /**Text */
-    @apply text-left text-4xl;
+    @apply text-left text-3xl;
     
     /**Font */
     font-family: "Quicksand", sans-serif;
@@ -80,11 +83,17 @@ export default {
     @apply col-span-1;
 
     /**Text */
-    font-family: "Open Sans", sans-serif;
-    @apply text-2xl;
+    font-family: "Quicksand", sans-serif;
+    @apply text-gray-500;
+    @apply font-light;
 
     /**Margin */
-    @apply mx-20 my-2;
+    @apply mx-14 my-2;
+}
+
+.topics .selected_content {
+    /**Text */
+    @apply text-black font-bold;
 }
 
 .userPref {
@@ -94,7 +103,7 @@ export default {
 
 .userPref a img {
     /**Sizing */
-    @apply w-9 h-9 rounded-full;
+    @apply w-8 h-8 rounded-full;
 
     /**Alignment */
     @apply self-center;
@@ -107,18 +116,18 @@ export default {
 
 @keyframes hoverOn {
   from {
-    color: black;
+    color: gray;
   }
   to {
-    color: gray;
+    color: black;
   }
 }
 @keyframes hoverOff {
   from {
-    color: gray;
+    color: black;
   }
   to {
-    color: black;
+    color: gray;
   }
 }
 
@@ -127,11 +136,11 @@ export default {
   @apply cursor-pointer;
   
   /**Color */
-  color: gray;
+  color: black;
 
   /**Animation */
   animation-name: hoverOn;
-  animation-duration: 0.2s;
+  animation-duration: 1s;
 }
 
 .userPref div:hover {
@@ -139,10 +148,10 @@ export default {
   @apply cursor-pointer;
   
   /**Color */
-  color: gray;
+  color: black;
 
   /**Animation */
   animation-name: hoverOn;
-  animation-duration: 0.2s;
+  animation-duration: 1s;
 }
 </style>
