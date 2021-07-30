@@ -6,15 +6,16 @@
                     <h1>Perapy</h1>
                 </div>
                 <div class="topics">
-                    <div>Home</div>
-                    <div>Pet Therapy</div>
-                    <div class="selected_content">Products</div>
-                    <div>Services</div>
+                    <a href="#">Home</a>
+                    <a href="#">Pet Therapy</a>
+                    <a href="#" class="selected_content">Products</a>
+                    <a href="#">Services</a>
                 </div>
                 <div class="userPref">
                     <a><img src="https://i.pinimg.com/originals/f6/70/a8/f670a8875997412b46cea057e2ba7aae.png"></a>
-                    <div class="dropdown">
-                        <i class="fas fa-angle-down"></i>
+                    <div class="dropdown">                        
+                        <i class="fas fa-angle-down">
+                        </i>
                     </div>
                 </div>
             </div>
@@ -78,7 +79,7 @@ export default {
     @apply flex flex-row items-center;
 }
 
-.topics div {
+.topics a {
     /**Grid */
     @apply col-span-1;
 
@@ -131,16 +132,22 @@ export default {
   }
 }
 
-.topics div:hover {
-  /**Cursor */
-  @apply cursor-pointer;
-  
+.topics a:hover {
   /**Color */
   color: black;
 
   /**Animation */
   animation-name: hoverOn;
-  animation-duration: 1s;
+  animation-duration: 0.2s;
+}
+
+.topics a {
+  /**Color */
+  color: gray;
+
+  /**Animation */
+  animation-name: hoverOff;
+  animation-duration: 0.2s;
 }
 
 .userPref div:hover {
@@ -152,6 +159,6 @@ export default {
 
   /**Animation */
   animation-name: hoverOn;
-  animation-duration: 1s;
+  animation-duration: 0.2s;
 }
 </style>
