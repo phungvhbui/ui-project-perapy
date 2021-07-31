@@ -14,8 +14,7 @@
                 <div class="userPref">
                     <a><img src="https://i.pinimg.com/originals/f6/70/a8/f670a8875997412b46cea057e2ba7aae.png"></a>
                     <div class="dropdown">                        
-                        <i class="fas fa-angle-down">
-                        </i>
+                        <Dropdown/>
                     </div>
                 </div>
             </div>
@@ -25,8 +24,12 @@
 </template>
 
 <script>
+import Dropdown from './Dropdown.vue'
 export default {
     name: "Navbar",
+    components: {
+        Dropdown,  
+    },
     data() {
         return {
             message: "Navbar",
