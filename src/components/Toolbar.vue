@@ -1,0 +1,61 @@
+<template>
+    <nav class="toolbar">
+        <span class="navicon">
+            <i class="fa fa-bars"></i>
+        </span>
+        <span class="searchbox">
+            <input class="searchfield" type="text" v-model="search" placeholder="Search products..."/>
+            <i class="icon fas fa-search"></i>
+        </span>
+    </nav>
+    
+</template>
+
+<script>
+export default {
+    data() {
+        return {
+            search: ''
+        }
+    }
+}
+</script>
+
+<style scoped>
+.toolbar {
+    /* Alignment */
+    @apply justify-center;
+
+    /* Margin */
+    @apply mx-4 mt-16;
+}
+
+.navicon {
+    /* Position */
+    @apply absolute left-12;
+}
+
+.searchbox {
+    /* Font */
+    font-family: "Quicksand", sans-serif;
+
+    /* Position */
+    @apply relative;
+}
+
+.searchfield {
+    /* Size */
+    @apply w-96;
+
+    /* Border */
+    @apply border-black border-2 rounded-3xl;
+
+    /* Padding */
+    @apply px-2;
+}
+
+.icon {
+    /* Position */
+    @apply absolute right-2 top-0.5;
+}
+</style>

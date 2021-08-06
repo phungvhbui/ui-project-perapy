@@ -12,7 +12,7 @@
                     <a href="#">Services</a>
                 </div>
                 <div class="userPref">
-                    <a><img src="https://i.pinimg.com/originals/f6/70/a8/f670a8875997412b46cea057e2ba7aae.png"></a>
+                    <a><img class="userImage" src="https://i.pinimg.com/originals/f6/70/a8/f670a8875997412b46cea057e2ba7aae.png"></a>
                     <div class="dropdown">                        
                         <Dropdown/>
                     </div>
@@ -41,80 +41,83 @@ export default {
 <style scoped>
 
 .navbar {
-    /**Background */
+    /* Background */
     background-image: linear-gradient(
         to right,
         rgba(136, 96, 208, 0.5), 
         rgba(86, 128, 233, 0.5)
     );
 
-    /**Size */
+    /* Size */
     @apply w-full h-12;
 
-    /**Position */
-    @apply absolute top-0;
+    /* Position */
+    @apply absolute;
+
+    /* Margin */
+    @apply mb-5;
 }
 
 .header-container {
-    /**Margin */
+    /* Margin */
     @apply my-1 mx-1;
 
-    /**Flex */
+    /* Flex */
     @apply flex justify-between; 
 }
 
 .logo h1{
-    /**Alignment */
+    /* Alignment */
     @apply self-center;
 
-    /**Margin */
+    /* Margin */
     @apply ml-1;
 
-    /**Text */
+    /* Text */
     @apply text-left text-3xl;
     
-    /**Font */
+    /* Font */
     font-family: "Quicksand", sans-serif;
 }
 
 .topics {
-    /**Flex */
+    /* Flex */
     @apply flex flex-row items-center;
 }
 
 .topics a {
-    /**Grid */
+    /* Grid */
     @apply col-span-1;
 
-    /**Text */
+    /* Text */
     font-family: "Quicksand", sans-serif;
     @apply text-gray-500;
     @apply font-light;
 
-    /**Margin */
+    /* Margin */
     @apply mx-14 my-2;
 }
 
 .topics .selected_content {
-    /**Text */
+    /* Text */
     @apply text-black font-bold;
 }
 
 .userPref {
-    /**Flex */
+    /* Flex */
     @apply flex items-center;
 }
 
-.userPref a img {
-    /**Sizing */
+.userImage {
+    /* Sizing */
     @apply w-8 h-8 rounded-full;
 
-    /**Alignment */
+    /* Alignment */
     @apply self-center;
 }
 
-.userPref .dropdown {
-    /**Margin */
+.dropdown {
+    /* Margin */
     @apply mx-2;
 }
 
@@ -123,12 +126,12 @@ export default {
     color: gray;
   }
   to {
-    color: black;
+    color: white;
   }
 }
 @keyframes hoverOff {
   from {
-    color: black;
+    color: white;
   }
   to {
     color: gray;
@@ -136,31 +139,31 @@ export default {
 }
 
 .topics a:hover {
-  /**Color */
-  color: black;
+  /* Color */
+  color: white;
 
-  /**Animation */
+  /* Animation */
   animation-name: hoverOn;
   animation-duration: 0.2s;
 }
 
 .topics a {
-  /**Color */
+  /* Color */
   color: gray;
 
-  /**Animation */
+  /* Animation */
   animation-name: hoverOff;
   animation-duration: 0.2s;
 }
 
 .userPref div:hover {
-  /**Cursor */
+  /* Cursor */
   @apply cursor-pointer;
   
-  /**Color */
+  /* Color */
   color: black;
 
-  /**Animation */
+  /* Animation */
   animation-name: hoverOn;
   animation-duration: 0.2s;
 }

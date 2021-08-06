@@ -1,6 +1,7 @@
 <template>
   <div id="app" class="app">
     <Navbar/>
+    <Toolbar/>
     <Footer/>
   </div>
 </template>
@@ -8,10 +9,18 @@
 <script>
 import Navbar from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
+import Toolbar from './components/Toolbar.vue'
 
 export default {
   components: {
-    Navbar, Footer
+    Navbar, Footer, Toolbar
+  },
+  data() {
+    return {
+      crumbs: [
+        'Home', 'Category', 'Sub Category'
+      ]
+    }
   },
 };
 </script>
@@ -35,5 +44,22 @@ export default {
 .app {
   @apply text-center;
   @apply overflow-auto;
+  @apply h-full;
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: var(--scroll-bar-color);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-thumb-color);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--text-color-light);
 }
 </style>
