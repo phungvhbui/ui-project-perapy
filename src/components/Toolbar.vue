@@ -58,4 +58,45 @@ export default {
     /* Position */
     @apply absolute right-2 top-0.5;
 }
+
+@keyframes hoverOn {
+  from {
+    color: black;
+  }
+  to {
+    color: gray;
+  }
+}
+@keyframes hoverOff {
+  from {
+    color: gray;
+  }
+  to {
+    color: black;
+  }
+}
+
+.navicon:hover {
+    /* Cursor */
+  @apply cursor-pointer;
+  
+  /* Color */
+  color: gray;
+
+  /* Animation */
+  animation-name: hoverOn;
+  animation-duration: 0.2s;
+}
+
+.navicon {
+    /* Cursor */
+  @apply cursor-pointer;
+  
+  /* Color */
+  color: black;
+
+  /* Animation */
+  animation-name: hoverOff;
+  animation-duration: 0.2s;
+}
 </style>
