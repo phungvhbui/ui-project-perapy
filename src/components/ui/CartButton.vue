@@ -92,7 +92,7 @@ export default {
   height: 64px;
 
   /* Background */
-  background-color: rgba(136, 96, 208, 1);
+  background-color: rgba(86, 128, 233, 1);
 
   /* Rounded */
   @apply rounded-full;
