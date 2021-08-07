@@ -1,28 +1,35 @@
 <template> 
 
-<div class="card-container">
-  <div class="image-container">
-    <img class="pet-image" src="..\..\assets\pet-images\pet-1.jpg" alt="ChitChat Logo">
-  </div>
+<a>
+  <div class="card-container">
+    <div class="image-container">
+      <img class="pet-image" src="..\..\assets\pet-images\pet-1.jpg" alt="ChitChat Logo">
+    </div>
 
-  <div class="information-container">
-    <div class="information-pet-type">
-      Animal type - Breed
-    </div>
-    <div class="information-pet-name">
-      Name
-    </div>
-    <div class="information-pet-description">
-      Placeholder
+    <div class="information-container">
+      <div class="information-pet-type">
+        {{ petData.type }} - {{ petData.breed }}
+      </div>
+      <div class="information-pet-name">
+        {{ petData.name }}
+      </div>
+      <div class="information-pet-description">
+        <div class="description-patients">
+          <img class="description-patients-image" src="..\..\assets\icons\patient.png" alt="">
+          <p> Current Patients: {{ petData.patients }} </p>
+        </div>
+        <div class="description-certificates">
+          <img class="description-patients-image" src="..\..\assets\icons\certificate.png" alt="">
+          <p> Certificates: {{ petData.certificates }} </p>
+        </div>
+        <div class="description-treatments">
+          <img class="description-patients-image" src="..\..\assets\icons\treatment.png" alt="">
+          <p> Attended Treatments: {{ petData.treatments }} </p>
+        </div>
+      </div>
     </div>
   </div>
-  
-  <a href="">
-    <div class="detail-container">
-    
-    </div>
-  </a>
-</div>
+</a>
 
 </template>
 
@@ -31,7 +38,7 @@
 
 export default {
   name: "PetRequestCard",
-  props: ['pet-data']
+  props: ['petData'],
 };
 
 </script>
@@ -41,7 +48,6 @@ export default {
 
 .card-container {
   /* Display */
-  @apply flex;
   @apply flex-col;
 
   /* Layout */
@@ -51,7 +57,7 @@ export default {
   @apply space-y-2;
 
   /* Shape */
-  @apply rounded-3xl;
+  @apply rounded-2xl;
 
   /* BG Color */
   background-color: #FBF9F9;
@@ -69,7 +75,7 @@ export default {
   @apply flex-shrink;
   
   /* Layout */
-  @apply max-w-full;
+  @apply w-full;
 }
 
 .pet-image {
@@ -77,10 +83,10 @@ export default {
   @apply object-cover;
   
   /* Layout */
-  @apply w-56 h-36;
+  @apply w-44 h-32;
 
   /* Shape */
-  @apply rounded-3xl;
+  @apply rounded-2xl;
 }
 
 
@@ -88,6 +94,10 @@ export default {
   /* Layout */
   @apply w-full;
   
+  /* Font */
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: .5px;
+
   /* Alignment */
   @apply text-left;
 
@@ -95,20 +105,74 @@ export default {
   @apply mx-0;
 }
 
-.information-title {
+.information-pet-type {
   /* Size */
-  @apply text-xl;
+  font-size: 8px;
+  line-height: 1rem;
+
+  /* Color */
+  @apply  text-gray-500;
+  
+  /* Styles */
+  @apply font-semibold;
+}
+
+.information-pet-name {
+  /* Size */
+  font-size: 14px;
 
   /* Color */
   @apply  text-black;
-  
+
   /* Styles */
-  @apply font-medium;
+  @apply font-bold;
+
+  /* Margin */
+  margin-top: 1px;
 }
 
-.information-subtitle {
+.information-pet-description {
+  /* Display */
+  @apply flex-col;
+}
+
+.description-patients,
+.description-certificates,
+.description-treatments {
+  /* Display */
+  @apply flex;
+
+  /* Layout */
+  @apply items-center;
+
+  /* Margin */
+  @apply mt-2;
+}
+
+.description-patients img,
+.description-certificates img,
+.description-treatments img {
+  /* Display: Image content */
+  @apply object-contain;
+  
+  /* Layout */
+  @apply w-6 h-6;
+}
+
+.description-patients p,
+.description-certificates p,
+.description-treatments p {
+  /* Size */
+  font-size: 9px;
+
   /* Color */
-  @apply text-gray-500
+  @apply  text-black;
+
+  /* Styles */
+  @apply font-bold;
+  
+  /* Margin */
+  @apply ml-2;
 }
 
 </style>
