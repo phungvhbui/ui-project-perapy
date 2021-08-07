@@ -8,12 +8,17 @@
   </div>
 </template>
 
+
 <script>
 import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
 // import Cart from "./page/Cart.vue";
 // import ProductDetail from "./page/ProductDetail.vue";
 import ProductList from "./page/ProductList.vue";
+
+// import Navbar from './components/Navbar.vue'
+// import Footer from './components/Footer.vue'
+import PetRequestCard from './components/petinfo/PetRequestCard.vue'
 
 export default {
   components: {
@@ -22,8 +27,10 @@ export default {
     // ProductDetail,
     // Cart,
     ProductList,
+    PetRequestCard,
   },
 };
+
 </script>
 
 <style scoped>
