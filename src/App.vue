@@ -10,7 +10,9 @@
   </div>
 </template>
 
+
 <script>
+
 import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
 import Cart from "./page/Cart.vue";
@@ -28,9 +30,12 @@ export default {
     CartButton,
   },
 };
+
 </script>
 
+
 <style scoped>
+
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
@@ -42,4 +47,5 @@ export default {
 .content {
   @apply mt-32;
 }
+
 </style>
