@@ -2,6 +2,7 @@
   <div id="app" class="app">
     <Navbar/>
     <Toolbar/>
+    <Pagination/>
     <Footer/>
   </div>
 </template>
@@ -10,10 +11,11 @@
 import Navbar from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
 import Toolbar from './components/Toolbar.vue'
+import Pagination from './components/Pagination.vue'
 
 export default {
   components: {
-    Navbar, Footer, Toolbar
+    Navbar, Footer, Toolbar, Pagination
   },
   data() {
     return {

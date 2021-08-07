@@ -52,11 +52,14 @@ export default {
 
     /* Padding */
     @apply px-2;
+
+    /* Text Indent */
+    @apply pl-8;
 }
 
 .icon {
     /* Position */
-    @apply absolute right-2 top-0.5;
+    @apply absolute left-2 top-0.5;
 }
 
 @keyframes hoverOn {
