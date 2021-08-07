@@ -1,42 +1,34 @@
 <template>
   <div id="app" class="app">
-    <!-- <Navbar /> -->
-    <PetRequestCard v-bind:petData="petData" />
-    <!-- <Footer /> -->
+    <Navbar />
+    <main class="content">
+      <pet-request-list />
+    </main>
+    <Footer />
   </div>
 </template>
 
 
 <script>
 
-// import Navbar from "./components/Navbar.vue";
-// import Footer from "./components/Footer.vue";
+import Navbar from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
 // import Cart from "./page/Cart.vue";
 // import ProductDetail from "./page/ProductDetail.vue";
 // import ProductList from "./page/ProductList.vue";
-import PetRequestCard from './components/petinfo/PetRequestCard.vue'
+import PetRequestList from './components/petinfo/PetRequestList.vue'
+// import PetRequestCard from './components/petinfo/PetRequestCard.vue'
 
 export default {
   components: {
-    // Navbar,
-    // Footer,
+    Navbar,
+    Footer,
     // ProductDetail,
     // Cart,
     // ProductList,
-    PetRequestCard,
-  },
-  data() {
-    return {
-      petData: {
-        type: "Dog",
-        breed: "Samoyed",
-        name: "Charlotte",
-        patients: 5,
-        certificates: 6,
-        treatments: 5
-      }
-    };
-  },
+    PetRequestList
+    // PetRequestCard
+  }
 };
 
 </script>
