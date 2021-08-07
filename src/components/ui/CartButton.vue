@@ -1,0 +1,120 @@
+<template>
+  <div class="cart-btn">
+    <i class="fas fa-shopping-cart cart-icon" />
+  </div>
+</template>
+
+<script>
+import debounce from "lodash.debounce";
+export default {
+  name: "CartButton",
+  data() {
+    return {
+      isPositionAbsolute: false,
+    };
+  },
+  created() {
+    this.handleDebounceScroll = debounce(this.changeButtonDisplay, 100);
+    document.addEventListener("scroll", this.changeButtonDisplay);
+  },
+  beforeUnmount() {
+    document.removeEventListener("scroll", this.changeButtonDisplay);
+  },
+  methods: {
+    getPageHeight() {
+      let pageHeight = 0;
+      const findHighestNode = (nodesList) => {
+        for (let i = nodesList.length - 1; i >= 0; i--) {
+          if (nodesList[i].scrollHeight && nodesList[i].clientHeight) {
+            let elHeight = Math.max(
+              nodesList[i].scrollHeight,
+              nodesList[i].clientHeight
+            );
+            pageHeight = Math.max(pageHeight, elHeight);
+          }
+          if (nodesList[i].childNodes.length) {
+            findHighestNode(nodesList[i].childNodes);
+          }
+        }
+      };
+
+      findHighestNode(document.documentElement.childNodes);
+      return pageHeight;
+    },
+
+    changeButtonDisplay() {
+      const button = document.querySelector(".cart-btn");
+      const footer = document.querySelector(".footer");
+      // const pageHeight = this.getPageHeight();
+      // console.log(pageHeight);
+      const rectTop = (el) => {
+        const rect = el.getBoundingClientRect();
+        return rect.top;
+      };
+
+      if (
+        rectTop(button) + document.body.scrollTop + button.offsetHeight >=
+        rectTop(footer) + document.body.scrollTop - 32
+      ) {
+        if (this.isPositionAbsolute === false) {
+          this.isPositionAbsolute = true;
+          button.style.position = "absolute";
+          button.style.bottom = `${rectTop(button) +
+            document.body.scrollTop +
+            button.offsetHeight -
+            (rectTop(footer) + document.body.scrollTop - 32)}px`;
+        }
+      }
+      if (
+        document.body.scrollTop + window.innerHeight <
+        rectTop(footer) + document.body.scrollTop
+      ) {
+        this.isPositionAbsolute = false;
+        button.style.position = "fixed";
+        button.style.bottom = "0px";
+      }
+    },
+  },
+};
+</script>
+
+<style scoped>
+.cart-btn {
+  /* Position */
+  @apply fixed;
+  @apply right-0;
+
+  /* Margin */
+  @apply mb-8 mr-8;
+
+  /* Sizing */
+  width: 64px;
+  height: 64px;
+
+  /* Background */
+  background-color: rgba(86, 128, 233, 1);
+
+  /* Rounded */
+  @apply rounded-full;
+
+  /* Box Shadow */
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.25);
+
+  /* Z-index */
+  z-index: 999px;
+
+  /* Cursor */
+  @apply cursor-pointer;
+}
+
+.cart-icon {
+  /* Sizing */
+  width: 32px;
+  height: 32px;
+
+  /* Color */
+  @apply text-white;
+
+  @apply mt-4 ml-3.5;
+}
+</style>

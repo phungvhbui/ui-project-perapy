@@ -2,7 +2,10 @@
   <footer class="footer">
     <div class="footer-container">
       <div class="dev-info">
-        <img class="web-logo" src="https://avatars.githubusercontent.com/u/47271466?s=48&v=4" />
+        <img
+          class="web-logo"
+          src="https://avatars.githubusercontent.com/u/47271466?s=48&v=4"
+        />
         <h1 class="web-name">Perapy</h1>
         <div class="web-credit">@FitHCMUS - 18KTPM - Group06</div>
       </div>
@@ -19,7 +22,9 @@
   </footer>
 </template>
 
+
 <script>
+
 export default {
   name: "Footer",
   data() {
@@ -28,9 +33,12 @@ export default {
     };
   },
 };
+
 </script>
 
+
 <style scoped>
+
 footer {
   /* Background */
   background-image: linear-gradient(
@@ -51,7 +59,7 @@ footer {
 
 .footer-container {
   /* Margin */
-  @apply my-4 mx-12;
+  @apply mx-12;
 
   /* Flex */
   @apply flex flex-row justify-between;
@@ -124,7 +132,6 @@ footer {
   }
 }
 
-
 .dev-links a {
   /* Margin */
   @apply mr-6;
@@ -148,4 +155,5 @@ footer {
   /* Cursor */
   @apply cursor-pointer;
 }
+
 </style>

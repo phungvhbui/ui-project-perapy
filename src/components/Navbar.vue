@@ -23,6 +23,7 @@
     
 </template>
 
+
 <script>
 import Dropdown from './Dropdown.vue'
 export default {
@@ -36,10 +37,11 @@ export default {
         };
     },
 };
+
 </script>
 
-<style scoped>
 
+<style scoped>
 .navbar {
     /* Background */
     background-image: linear-gradient(
@@ -167,4 +169,5 @@ export default {
   animation-name: hoverOn;
   animation-duration: 0.2s;
 }
+
 </style>
