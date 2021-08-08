@@ -55,21 +55,24 @@ export default {
 
 .page-button {
     /* Padding */
-    @apply px-3 py-1;
+    @apply px-2;
 
     /* Text */
     @apply bg-white;
 
     /* Border */
-    @apply border border-black;
+    @apply border-black border-2 rounded-md;
 
     /* Margin */
     @apply mx-1;
+
+    /* Font weight */
+    @apply font-extrabold;
 }
 
 .change-page-button {
     /* Padding */
-    @apply px-3 py-1;
+    @apply px-2;
 }
 
 .change-page-button-inactive {

@@ -4,7 +4,7 @@
             <i class="fa fa-bars"></i>
         </span>
         <span class="searchbox">
-            <input class="searchfield" type="text" v-model="search" placeholder="Search products..."/>
+            <input class="searchfield" @input="debounceSearch" type="text" placeholder="Search products..."/>
             <i class="icon fas fa-search"></i>
         </span>
     </nav>
@@ -13,10 +13,19 @@
 
 <script>
 export default {
-    data() {
-        return {
-            search: ''
-        }
+    data: () => ({
+      message: null,
+      debounce: null,
+    }),
+    
+    methods: {
+      debounceSearch(event) {
+        this.message = null
+        clearTimeout(this.debounce)
+        this.debounce = setTimeout(() => {
+          this.message = event.target.value
+        }, 600)
+      }
     }
 }
 </script>
@@ -24,13 +33,16 @@ export default {
 <style scoped>
 .toolbar {
     /* Alignment */
-    @apply justify-center;
+    @apply flex justify-center;
 
     /* Margin */
     @apply mx-4 mt-16;
 }
 
 .navicon {
+    /* Flex */
+    @apply flex items-center;
+
     /* Position */
     @apply absolute left-12;
 }
@@ -44,22 +56,28 @@ export default {
 }
 
 .searchfield {
+    /* Background */
+    @apply bg-gray-300;
+
     /* Size */
-    @apply w-96;
+    @apply w-96 h-10;
 
     /* Border */
-    @apply border-black border-2 rounded-3xl;
+    @apply border-gray-300 border rounded-3xl;
 
     /* Padding */
     @apply px-2;
 
     /* Text Indent */
     @apply pl-8;
+
+    /* Text size */
+    @apply text-sm;
 }
 
 .icon {
     /* Position */
-    @apply absolute left-2 top-0.5;
+    @apply absolute left-2 top-3;
 }
 
 @keyframes hoverOn {

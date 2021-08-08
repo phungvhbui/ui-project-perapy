@@ -30,51 +30,51 @@ export default {
 
 <style scoped>
 .menu {  
-    /**Font */
+    /* Font */
     font-family: 'Open Sans', sans-serif;
 }
 
 .dropdown-content {
-    /**Position */
+    /* Position */
     @apply absolute right-0;
 
-    /**Text */ 
+    /* Text  */
     color: black;
     @apply text-left;
 
-    /**Block size */
+    /* Block size */
     width: 160px;
 
-    /**Margin */
+    /* Margin */
     @apply mt-3;
 }
 
 .dropdown-content a {
-    /**Display */
+    /* Display */
     display: block;
     
-    /**Padding */
-    @apply p-2;
+    /* Padding */
+    @apply px-4 py-3;
 
-    /**Background */
+    /* Background */
     background: rgb(230, 224, 224);
 
-    /**Transition */
+    /* Transition */
     transition: .2s;
 }
 
 .dropdown-content a:hover {
-    /**Background Hover */
+    /* Background Hover */
     background: rgb(196, 196, 196);
 }
 
 .fade-enter-active, .fade-leave-active {
-    /**Transition */
+    /* Transition */
     @apply transition-opacity;
 }
 
 .fade-enter, .fade-leave-active {
-    /**Opacity */
+    /* Opacity */
     opacity: 0;
 }
 </style>
