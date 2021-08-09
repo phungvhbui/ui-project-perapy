@@ -6,12 +6,12 @@
           <h1>Perapy</h1>
         </div>
         <div class="topics">
-          <router-link to="/">Pet Therapy</router-link>
           <router-link to="/">Home</router-link>
           <router-link class="selected_content" to="/products"
             >Products</router-link
           >
-          <router-link to="/products">Services</router-link>
+          <router-link to="/therapy">Pet Therapy</router-link>
+          <router-link to="/">Services</router-link>
         </div>
         <div class="userPref">
           <a
