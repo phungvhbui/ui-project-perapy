@@ -21,6 +21,9 @@ export default {
   /* Margin */
   @apply ml-56 my-10;
 
+  /* Width */
+  width: 1250px;
+
   /* Font */
   font-family: "Open Sans", sans-serif;
   @apply text-lg;
