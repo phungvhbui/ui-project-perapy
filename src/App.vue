@@ -2,7 +2,8 @@
   <div id="app" class="app">
     <Navbar />
     <main class="content">
-      <router-view :key="$route.fullPath"></router-view>
+      <!-- <router-view :key="$route.fullPath"></router-view> -->
+      <product-detail/>
     </main>
     <Footer />
   </div>
@@ -11,10 +12,12 @@
 <script>
 import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
+import ProductDetail from '@/page/ProductDetail'
 export default {
   components: {
     Navbar,
     Footer,
+    ProductDetail
   },
 };
 </script>
