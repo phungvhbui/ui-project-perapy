@@ -98,7 +98,7 @@ export default {
 .tabs {
   /* Cursor */
   @apply cursor-pointer;
-  transition: 0.1s;
+  transition: color 0.2s;
 
   /* Text color */
   color: rgb(141, 141, 141, 1);
@@ -107,7 +107,6 @@ export default {
 .tabs:hover,
 .active {
   color: black;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .feedback {
