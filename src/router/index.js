@@ -20,6 +20,11 @@ const routes = [
         path: '/therapy/pet-detail',
         name: 'Pet Therapy Detail',
         component: () => import(/* webpackChunkName: "about" */ '../page/PetDetail.vue')
+    },
+    {
+        path: '/cart',
+        name: 'CartButton',
+        component: () => import(/* webpackChunkName: "about" */ '../page/Cart.vue')
     }
 ]
 
