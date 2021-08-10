@@ -3,7 +3,8 @@
     "id": "26845261-10e1-48ac-bafc-239da2713a1b",
     "name": "Alouatta seniculus",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/0/03/Alouatta_seniculus.jpg",
-    "type": "Atelidae",
+    "type" : "Monkey",
+    "breed": "Atelidae",
     "age": 6,
     "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.",
     "sen": {
@@ -11,10 +12,12 @@
       "email": "aclewes0@edublogs.org",
       "phone": "618-648-3084"
     },
+    "patients": 4,
+    "attended": 3,
     "certificate": [
       {
         "id": "VHJX-QHXH-8PUU-H4M6",
-        "name": "beef",
+        "name": "Triclosan",
         "issued_by": "Allergy Laboratories, Inc."
       },
       {
@@ -69,8 +72,9 @@
   {
     "id": "734297e8-ee0f-48f2-b0e5-94ef361ccddf",
     "name": "Odocoilenaus virginianus",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Odocoileus_virginianus_clavium_female_graze.jpg",
-    "type": "Cervidae",
+    "thumbnail": "https://bioinformaticaupf.crg.eu/20172018/projectes1718/11/images/odocoileus2.png",
+    "type": "Deer",
+    "breed": "Cervidae",
     "age": 5,
     "description": "Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
     "sen": {
@@ -78,6 +82,8 @@
       "email": "csabine1@yellowpages.com",
       "phone": "737-111-0838"
     },
+    "patients": 5,
+    "attended": 8,
     "certificate": [
       {
         "id": "77OR-2VFR-NPNK-LS4Q",
@@ -172,7 +178,8 @@
     "id": "77ecc339-196e-427f-943c-ee7aa893ca41",
     "name": "Delphinus delphis",
     "thumbnail": "https://live.staticflickr.com/4480/26267310859_be12775369_b.jpg",
-    "type": "Delphinidae",
+    "type": "Dog",
+    "breed": "Delphinidae",
     "age": 3,
     "description": "Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
     "sen": {
@@ -180,6 +187,8 @@
       "email": "ioutram2@jiathis.com",
       "phone": "450-731-4786"
     },
+    "patients": 5,
+    "attended": 10,
     "certificate": [
       {
         "id": "JQOF-LX42-U806-P9DQ",
@@ -219,7 +228,8 @@
     "id": "0825ac68-c21e-4758-9292-b292240fc1a2",
     "name": "Myotis lucifugus",
     "thumbnail": "https://www.purina.co.uk/sites/default/files/2021-02/BREED%20Hero%20Desktop_0187_affenpinscher_0.jpg",
-    "type": "Affenpinscher",
+    "type": "Dog",
+    "breed": "Affenpinscher",
     "age": 1,
     "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
     "sen": {
@@ -227,6 +237,8 @@
       "email": "jtippings3@biblegateway.com",
       "phone": "280-430-9150"
     },
+    "patients": 5,
+    "attended": 1,
     "certificate": [
       {
         "id": "D7XX-GI1C-SCSY-Y5RV",
@@ -341,7 +353,7 @@
     "id": "f6e35f82-4c9d-4a88-9f52-bdcca8f0680f",
     "name": "Caiman crocodilus",
     "thumbnail": "https://www.purina.co.uk/sites/default/files/2021-02/BREED%20Hero%20Desktop_0186_afghan_hound.jpg",
-    "type": "Afghan Hound",
+    "type" : "Dog", "breed": "Afghan Hound",
     "age": 10,
     "description": "Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.",
     "sen": {
@@ -349,6 +361,8 @@
       "email": "eitzhaki4@clickbank.net",
       "phone": "481-560-9537"
     },
+    "patients": 0,
+    "attended": 1,
     "certificate": [
       {
         "id": "2G96-0YK3-XBXS-4MFR",
@@ -477,8 +491,8 @@
   {
     "id": "646693e1-9e96-4d81-b04d-7ae1ed61f566",
     "name": "Butorides striatus",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Butorides_striatus_amurensis.JPG",
-    "type": "Ardeidae",
+    "thumbnail": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/56638961/320",
+    "type": "Dog", "breed": "Ardeidae",
     "age": 1,
     "description": "Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",
     "sen": {
@@ -486,6 +500,8 @@
       "email": "twayland5@samsung.com",
       "phone": "616-207-8481"
     },
+    "patients": 4,
+    "attended": 1,
     "certificate": [
       {
         "id": "CVHJ-QBAV-O5DC-92SN",
@@ -595,7 +611,7 @@
     "id": "5a06ca2a-b13a-4769-80ef-abb05b881562",
     "name": "Suricata suricatta",
     "thumbnail": "https://anphupet.com/wp-content/uploads/2021/01/cay-mangut-nguon-goc.jpg",
-    "type": "Herpestidae",
+    "type" : "Dog", "breed": "Herpestidae",
     "age": 2,
     "description": "Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
     "sen": {
@@ -603,6 +619,8 @@
       "email": "nlansbury6@barnesandnoble.com",
       "phone": "767-655-6870"
     },
+    "patients": 4,
+    "attended": 1,
     "certificate": [
       {
         "id": "AXXG-L2G0-PDNW-35I5",
@@ -691,8 +709,8 @@
   {
     "id": "caa167fb-f64f-451d-9869-58162674879e",
     "name": "Perameles nasuta",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/4/42/Perameles_nasuta.jpg",
-    "type": "Peramelemorphia",
+    "thumbnail": "https://cdn.britannica.com/s:700x500/78/219178-050-0295A511/Long-Nosed-Bandicoot-Marsupial-Australia.jpg",
+    "type" : "Dog", "breed": "Peramelemorphia",
     "age": 1,
     "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
     "sen": {
@@ -700,6 +718,8 @@
       "email": "gcoalbran7@shinystat.com",
       "phone": "103-788-0138"
     },
+    "patients": 5,
+    "attended": 8,
     "certificate": [
       {
         "id": "B88Z-PNMM-HQBF-DME6",
@@ -793,8 +813,8 @@
   {
     "id": "eb5b5335-9864-4787-855f-3d44d1528785",
     "name": "Spheniscus magellanicus",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Magellanic_penguin.jpg",
-    "type": "Spheniscidae",
+    "thumbnail": "http://www.mangoverde.com/birdsound/images/00000005026.jpg",
+    "type" : "Dog", "breed": "Spheniscidae",
     "age": 2,
     "description": "Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
     "sen": {
@@ -802,6 +822,8 @@
       "email": "ohaggata8@businessweek.com",
       "phone": "992-244-4891"
     },
+    "patients": 5,
+    "attended": 1,
     "certificate": [
       {
         "id": "RLQM-JRVN-YIC2-TKZB",
@@ -855,8 +877,8 @@
   {
     "id": "e1627938-40f0-41bf-9805-34dd7f886de6",
     "name": "Gerbillus sp.",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Perpallidus.jpg",
-    "type": "Muridae",
+    "thumbnail": "https://www.mindenpictures.com/cache/pcache2/00487929.jpg",
+    "type" : "Dog", "breed": "Muridae",
     "age": 8,
     "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
     "sen": {
@@ -864,6 +886,8 @@
       "email": "lrushman9@ibm.com",
       "phone": "169-422-8202"
     },
+    "patients": 4,
+    "attended": 5,
     "certificate": [
       {
         "id": "LZ6C-0K82-AXK9-0PGM",
@@ -988,7 +1012,7 @@
     "id": "9b2a50ee-9532-4b63-bcb0-6253fee4f737",
     "name": "Tapirus terrestris",
     "thumbnail": "https://www.researchgate.net/profile/Diego-Tirira/publication/337409269/figure/fig3/AS:829077648863235@1574678923730/Tapirus-terrestris-Credit-Aldo-Fernando-Sornoza-Location-Yasuni-National-Park.ppm",
-    "type": "Tapir",
+    "type" : "Dog", "breed": "Tapir",
     "age": 3,
     "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
     "sen": {
@@ -996,6 +1020,8 @@
       "email": "mdonisia@aol.com",
       "phone": "671-991-5208"
     },
+    "patients": 4,
+    "attended": 3,
     "certificate": [
       {
         "id": "OVQC-7FWM-M2Y0-Q5RO",
@@ -1074,8 +1100,8 @@
   {
     "id": "3d35c80a-ad4d-4e75-87e6-58ffef5802d7",
     "name": "Halcyon smyrnesis",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Halcyon_smyrnensis_-Kerala%2C_India-8_%281%29.jpg/1200px-Halcyon_smyrnensis_-Kerala%2C_India-8_%281%29.jpg",
-    "type": "Halcyonidae",
+    "thumbnail": "https://blog.nationalgeographic.org/wp-content/uploads/2020/02/White-breasted-Kingfisher-Halcyon-smyrnensis-Kerala-India-Photograph-by-Pradnya-Paralkar.jpg",
+    "type" : "Dog", "breed": "Halcyonidae",
     "age": 2,
     "description": "Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.",
     "sen": {
@@ -1083,6 +1109,8 @@
       "email": "gcutcheyb@myspace.com",
       "phone": "985-516-6875"
     },
+    "patients": 5,
+    "attended": 7,
     "certificate": [
       {
         "id": "9PJH-UQGU-LKVC-R4TI",
@@ -1216,8 +1244,8 @@
   {
     "id": "e589384a-89a4-4040-b3cb-5f956dfb1768",
     "name": "Haliaeetus leucocephalus",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bald_Eagle_%28Haliaeetus_leucocephalus%29_Kachemak_Bay%2C_Alaska.jpg/1200px-Bald_Eagle_%28Haliaeetus_leucocephalus%29_Kachemak_Bay%2C_Alaska.jpg",
-    "type": "Haliaeetus albicilla",
+    "thumbnail": "https://media01.stockfood.com/largepreviews/MjE3OTU0NTcwNg==/70307926-Bald-Eagle-Haliaeetus-leucocephalus-Weisskopfseeadler-Homer-Kenai-Peninsula-Alaska-USA.jpg",
+    "type" : "Dog", "breed": "Haliaeetus albicilla",
     "age": 9,
     "description": "Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
     "sen": {
@@ -1225,6 +1253,8 @@
       "email": "csmythec@sciencedaily.com",
       "phone": "299-224-6134"
     },
+    "patients": 4,
+    "attended": 6,
     "certificate": [
       {
         "id": "2H1Z-IU45-QMD2-FLUD",
@@ -1329,7 +1359,7 @@
     "id": "ade115bd-7595-454f-9e1a-a746cd475565",
     "name": "Ictonyx striatus",
     "thumbnail": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/26151200/Afghan-Hound-standing-outdoors-in-the-fall.jpg",
-    "type": "Afghan Hound",
+    "type" : "Dog", "breed": "Afghan Hound",
     "age": 8,
     "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",
     "sen": {
@@ -1337,6 +1367,8 @@
       "email": "hbonhamd@army.mil",
       "phone": "148-294-1434"
     },
+    "patients": 4,
+    "attended": 7,
     "certificate": [
       {
         "id": "6PCS-O3HR-QQAN-V2QJ",
@@ -1401,7 +1433,7 @@
     "id": "4e00f541-f41e-4310-92dc-d71b0bf6a9a4",
     "name": "Speothos vanaticus",
     "thumbnail": "https://2.bp.blogspot.com/-W8l04N7tIYw/W_32wKiu55I/AAAAAAAAlKA/UaxlbptrbUIveJvvfv4ReGA4qD1oHxEDACK4BGAYYCw/s1600/dog-3526279_640.jpg",
-    "type": "Airedale Terrier",
+    "type" : "Dog", "breed": "Airedale Terrier",
     "age": 10,
     "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
     "sen": {
@@ -1409,6 +1441,8 @@
       "email": "mdowe@theatlantic.com",
       "phone": "743-297-7826"
     },
+    "patients": 2,
+    "attended": 9,
     "certificate": [
       {
         "id": "TX25-4XJC-BCKI-CWWD",
@@ -1512,8 +1546,8 @@
   {
     "id": "02911222-61da-4d74-97bf-eeb46384bf1a",
     "name": "Bubalornis niger",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Akita_Inu_dog.jpg/1200px-Akita_Inu_dog.jpg",
-    "type": "Akita",
+    "thumbnail": "https://live.staticflickr.com/3479/3840230016_b294ee8e19_b.jpg",
+    "type" : "Dog", "breed": "Akita",
     "age": 4,
     "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
     "sen": {
@@ -1521,6 +1555,8 @@
       "email": "walentyevf@marriott.com",
       "phone": "219-440-5006"
     },
+    "patients": 4,
+    "attended": 9,
     "certificate": [
       {
         "id": "EED7-SLPT-X00G-JT0J",
@@ -1635,7 +1671,7 @@
     "id": "c59b6c76-edfc-4ed2-a825-d92ef93d4108",
     "name": "Papio ursinus",
     "thumbnail": "https://sieupet.com/sites/default/files/alaskan-va-su-cong-nhan-akc-696x438_0.jpg",
-    "type": "Alaskan Malamute",
+    "type" : "Dog", "breed": "Alaskan Malamute",
     "age": 1,
     "description": "Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
     "sen": {
@@ -1643,6 +1679,8 @@
       "email": "wscrangeg@cocolog-nifty.com",
       "phone": "952-312-5964"
     },
+    "patients": 5,
+    "attended": 2,
     "certificate": [
       {
         "id": "FFO6-25EE-R5J6-U3LL",
@@ -1722,7 +1760,7 @@
     "id": "0784e414-a1e2-4467-b041-e862d9ede639",
     "name": "Phylurus milli",
     "thumbnail": "https://thehappypuppysite.com/wp-content/uploads/2019/01/american-english-coonhound-HP-long.jpg",
-    "type": "American English Coonhound",
+    "type" : "Dog", "breed": "American English Coonhound",
     "age": 1,
     "description": "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
     "sen": {
@@ -1730,6 +1768,8 @@
       "email": "dmcquorkelh@independent.co.uk",
       "phone": "446-871-9459"
     },
+    "patients": 1,
+    "attended": 9,
     "certificate": [
       {
         "id": "OQVA-M64D-6IFH-3IOL",
@@ -1818,8 +1858,8 @@
   {
     "id": "ca403a5b-e2b0-41b8-b557-9169a37a44e7",
     "name": "Damaliscus dorcas",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/American_Eskimo_Dog_1.jpg/1200px-American_Eskimo_Dog_1.jpg",
-    "type": "American Eskimo Dog",
+    "thumbnail": "http://3.bp.blogspot.com/-xBcQC9DEF4E/U3BZEt80iWI/AAAAAAAAHF4/8A5EDj8GIw8/s1600/Damaliscus-dorcas.jpeg",
+    "type" : "Dog", "breed": "American Eskimo Dog",
     "age": 3,
     "description": "Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",
     "sen": {
@@ -1827,6 +1867,8 @@
       "email": "ecristofolinii@springer.com",
       "phone": "403-514-8480"
     },
+    "patients": 1,
+    "attended": 9,
     "certificate": [
       {
         "id": "E4WR-RJC9-7TXQ-PPIK",
@@ -1926,7 +1968,7 @@
     "id": "bb0032b1-0240-49ed-b082-9e97795abe00",
     "name": "Pteronura brasiliensis",
     "thumbnail": "https://racinevet.com/wp-content/uploads/2018/12/american-foxhound.png",
-    "type": "American Foxhound",
+    "type" : "Dog", "breed": "American Foxhound",
     "age": 1,
     "description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
     "sen": {
@@ -1934,6 +1976,8 @@
       "email": "bcaccavarij@twitpic.com",
       "phone": "776-919-4972"
     },
+    "patients": 1,
+    "attended": 9,
     "certificate": [
       {
         "id": "01HZ-9U2B-7Y4N-D93A",
@@ -2063,7 +2107,7 @@
     "id": "d81b8bc4-0344-4375-9755-a8964d016ffc",
     "name": "Corallus hortulanus cooki",
     "thumbnail": "https://www.mundoperros.es/wp-content/uploads/2017/02/American_Staffordshire_Terrier.jpg",
-    "type": "American Staffordshire Terrier",
+    "type" : "Dog", "breed": "American Staffordshire Terrier",
     "age": 8,
     "description": "Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
     "sen": {
@@ -2071,6 +2115,8 @@
       "email": "bkwietakk@ft.com",
       "phone": "300-885-9594"
     },
+    "patients": 3,
+    "attended": 7,
     "certificate": [
       {
         "id": "UENA-9TMJ-9W9L-SV47",
@@ -2165,7 +2211,7 @@
     "id": "2ce87e79-77dc-45e9-97a9-7ee5df21621c",
     "name": "Alopex lagopus",
     "thumbnail": "https://12cungsaoblog.files.wordpress.com/2015/06/americanwaterspaniel10.jpg",
-    "type": "American Water Spaniel",
+    "type" : "Dog", "breed": "American Water Spaniel",
     "age": 10,
     "description": "Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
     "sen": {
@@ -2173,6 +2219,8 @@
       "email": "emateescul@google.ca",
       "phone": "361-736-4290"
     },
+    "patients": 3,
+    "attended": 9,
     "certificate": [
       {
         "id": "E8ZL-10VP-54G5-JEQX",
@@ -2221,8 +2269,8 @@
   {
     "id": "6edaf83e-8dc1-47d6-9556-e850e97d3199",
     "name": "Semnopithecus entellus",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Kangal_front_on.jpg",
-    "type": "Anatolian Shepherd Dog",
+    "thumbnail": "https://live.staticflickr.com/3045/2868218522_b5268ea0d7_b.jpg",
+    "type" : "Dog", "breed": "Anatolian Shepherd Dog",
     "age": 7,
     "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.",
     "sen": {
@@ -2230,6 +2278,8 @@
       "email": "pbushbym@reverbnation.com",
       "phone": "836-991-5455"
     },
+    "patients": 2,
+    "attended": 4,
     "certificate": [
       {
         "id": "1VGP-8EZH-FA15-A2W2",
@@ -2294,7 +2344,7 @@
     "id": "34078072-deb2-4610-aa35-1f9a17399341",
     "name": "Mabuya spilogaster",
     "thumbnail": "https://media-be.chewy.com/wp-content/uploads/2021/06/16153832/AustralianCattleDog-FeaturedImage.jpg",
-    "type": "Australian Cattle Dog",
+    "type" : "Dog", "breed": "Australian Cattle Dog",
     "age": 2,
     "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
     "sen": {
@@ -2302,6 +2352,8 @@
       "email": "pslaineyn@mozilla.org",
       "phone": "932-673-0116"
     },
+    "patients": 4,
+    "attended": 10,
     "certificate": [
       {
         "id": "C8P9-MMUD-2NG2-3X8N",
@@ -2386,7 +2438,7 @@
     "id": "71c5548c-4d3c-47f1-a94b-75db687c3961",
     "name": "Charadrius tricollaris",
     "thumbnail": "https://www.purina.com.au/-/media/project/purina/main/breeds/puppies/puppy-australian-shepherd.jpg?h=475&la=en&w=825&hash=489F6DE7880CAC6BD5FB60DB4EADCEDE",
-    "type": "Australian Shepherd",
+    "type" : "Dog", "breed": "Australian Shepherd",
     "age": 9,
     "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.",
     "sen": {
@@ -2394,6 +2446,8 @@
       "email": "egolsworthyo@opensource.org",
       "phone": "677-768-0729"
     },
+    "patients": 4,
+    "attended": 8,
     "certificate": [
       {
         "id": "D0R4-C79F-QZBT-971U",
@@ -2473,7 +2527,7 @@
     "id": "706a3a6d-5a46-45a3-b9a2-718af0085add",
     "name": "Carphophis sp.",
     "thumbnail": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/19130337/Australian-Terrier-standing-outdoors.jpg",
-    "type": "Australian Terrier",
+    "type" : "Dog", "breed": "Australian Terrier",
     "age": 9,
     "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.",
     "sen": {
@@ -2481,6 +2535,8 @@
       "email": "cshanksterp@reuters.com",
       "phone": "347-959-7667"
     },
+    "patients": 2,
+    "attended": 10,
     "certificate": [
       {
         "id": "WTGI-Z5LH-3ZEF-1W01",
@@ -2520,7 +2576,7 @@
     "id": "12120a14-5db1-48ed-a61b-9850190028c2",
     "name": "Cacatua tenuirostris",
     "thumbnail": "https://st.quantrimang.com/photos/image/2021/07/01/giong-cho-khong-sua-1.jpg",
-    "type": "Basenji",
+    "type" : "Dog", "breed": "Basenji",
     "age": 1,
     "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
     "sen": {
@@ -2528,6 +2584,8 @@
       "email": "bchungq@howstuffworks.com",
       "phone": "859-344-0585"
     },
+    "patients": 3,
+    "attended": 5,
     "certificate": [
       {
         "id": "P5FH-4HBQ-WHVP-CD22",
@@ -2657,7 +2715,7 @@
     "id": "4923f271-42af-41c1-8536-e096cb176e26",
     "name": "Meleagris gallopavo",
     "thumbnail": "https://sieupet.com/sites/default/files/pictures/images/cho-basset-hound-01.jpg",
-    "type": "Basset Hound",
+    "type" : "Dog", "breed": "Basset Hound",
     "age": 7,
     "description": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
     "sen": {
@@ -2665,6 +2723,8 @@
       "email": "cevreuxr@wisc.edu",
       "phone": "645-352-3810"
     },
+    "patients": 4,
+    "attended": 8,
     "certificate": [
       {
         "id": "RYAH-JUOE-48PV-NLNR",
@@ -2724,7 +2784,7 @@
     "id": "e75411f7-4c4b-4cd6-bec3-561a9addd423",
     "name": "Merops nubicus",
     "thumbnail": "https://petmaster.vn/petroom/wp-content/uploads/2020/03/hinh-anh-cho-beagle.jpg",
-    "type": "Beagle",
+    "type" : "Dog", "breed": "Beagle",
     "age": 5,
     "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
     "sen": {
@@ -2732,6 +2792,8 @@
       "email": "adewhursts@kickstarter.com",
       "phone": "126-906-0171"
     },
+    "patients": 2,
+    "attended": 1,
     "certificate": [
       {
         "id": "H2DV-3ORW-AI1N-SFJT",
@@ -2810,8 +2872,8 @@
   {
     "id": "d778f6ad-97e6-45a9-a1fc-a6aaa93c09b6",
     "name": "Phalacrocorax albiventer",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Bearded_Collie.jpg/1200px-Bearded_Collie.jpg",
-    "type": "Bearded Collie",
+    "thumbnail": "https://live.staticflickr.com/7267/7025835363_e5c788097f_b.jpg",
+    "type" : "Dog", "breed": "Bearded Collie",
     "age": 5,
     "description": "Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
     "sen": {
@@ -2819,6 +2881,8 @@
       "email": "dvaraht@zimbio.com",
       "phone": "643-720-9416"
     },
+    "patients": 2,
+    "attended": 1,
     "certificate": [
       {
         "id": "EXF3-NGOR-4UY4-E68W",
@@ -2932,8 +2996,8 @@
   {
     "id": "59dc5187-004e-4f54-a759-1a205877aa01",
     "name": "Psophia viridis",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Gustav_chocolate.jpg",
-    "type": "Abyssinian",
+    "thumbnail": "https://i.pinimg.com/originals/c9/b1/46/c9b146d4b041e175f6406b3e02342c68.jpg",
+    "type" : "Dog", "breed": "Abyssinian",
     "age": 6,
     "description": "Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
     "sen": {
@@ -2941,6 +3005,8 @@
       "email": "ctorreu@google.it",
       "phone": "623-599-7607"
     },
+    "patients": 4,
+    "attended": 4,
     "certificate": [
       {
         "id": "T0HJ-EF2W-DGUW-Y1J3",
@@ -3010,7 +3076,7 @@
     "id": "10c52ab4-5033-4e21-b416-d0ab94694230",
     "name": "Pavo cristatus",
     "thumbnail": "https://vetstreet.brightspotcdn.com/dims4/default/dd74e43/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2F19%2Fdb22509dc311e0a2380050568d634f%2Ffile%2FAmerican-Bobtail-1-645mk062211.jpg",
-    "type": "American Bobtail",
+    "type" : "Dog", "breed": "American Bobtail",
     "age": 1,
     "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
     "sen": {
@@ -3018,6 +3084,8 @@
       "email": "dbrooksbyv@intel.com",
       "phone": "571-666-0857"
     },
+    "patients": 3,
+    "attended": 9,
     "certificate": [
       {
         "id": "DK71-645N-MA0K-NYPY",
@@ -3122,7 +3190,7 @@
     "id": "ed216dbd-4598-45ac-ab36-b2def31d9c76",
     "name": "Leptoptilus dubius",
     "thumbnail": "https://vetstreet.brightspotcdn.com/dims4/default/0146c7d/2147483647/crop/0x0%2B0%2B0/resize/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2F1f%2F490b40a27c11e087a80050568d634f%2Ffile%2FAmerican-Curl-4-645mk062211.jpg",
-    "type": "American Curl",
+    "type" : "Dog", "breed": "American Curl",
     "age": 6,
     "description": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
     "sen": {
@@ -3130,6 +3198,8 @@
       "email": "knewlynw@cdbaby.com",
       "phone": "447-251-7651"
     },
+    "patients": 3,
+    "attended": 2,
     "certificate": [
       {
         "id": "Q2UX-X1GA-GYDN-VTUU",
@@ -3204,7 +3274,7 @@
     "id": "e78b68bd-8600-44a8-97ba-f268810238f6",
     "name": "Thamnolaea cinnmomeiventris",
     "thumbnail": "https://images.ctfassets.net/440y9b545yd9/250mPrOBEUesyo1imn2SmZ/9c6104c32076f06803834df2aafffe77/American-Shorthair850.jpg",
-    "type": "American Shorthair",
+    "type" : "Dog", "breed": "American Shorthair",
     "age": 10,
     "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
     "sen": {
@@ -3212,6 +3282,8 @@
       "email": "wcancellierix@163.com",
       "phone": "289-662-8214"
     },
+    "patients": 5,
+    "attended": 1,
     "certificate": [
       {
         "id": "8REC-O95F-TXNL-5PWI",
@@ -3296,7 +3368,7 @@
     "id": "f30b6ea3-d541-4def-a106-4c061b2c9e10",
     "name": "Castor canadensis",
     "thumbnail": "https://catbreeds101.com/wp-content/uploads/2018/11/american-wirehair-cat-pxhere.com_-1.jpg",
-    "type": "American Wirehair",
+    "type" : "Dog", "breed": "American Wirehair",
     "age": 7,
     "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
     "sen": {
@@ -3304,6 +3376,8 @@
       "email": "crickhussy@istockphoto.com",
       "phone": "782-351-2663"
     },
+    "patients": 5,
+    "attended": 5,
     "certificate": [
       {
         "id": "C2Z8-FFW6-X9QZ-PCTE",
@@ -3383,7 +3457,7 @@
     "id": "1f4e9eae-1b16-47cf-ac7d-7731ad4cb89a",
     "name": "Falco mexicanus",
     "thumbnail": "https://lh3.googleusercontent.com/proxy/skk2BcuTZVIGPyic13z5eUjCevc8GeHqu-rHp3M6cPACI7SzwZvIgcH6ILz4i2KMd4ms5DkyO8PmNgREUBdnjtnPWHlGDA4iOQ",
-    "type": "Balinese-Javanese",
+    "type" : "Dog", "breed": "Balinese-Javanese",
     "age": 9,
     "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.",
     "sen": {
@@ -3391,6 +3465,8 @@
       "email": "lbradburnez@hibu.com",
       "phone": "552-347-9060"
     },
+    "patients": 1,
+    "attended": 5,
     "certificate": [
       {
         "id": "P9XQ-4ILU-4OPU-XLO1",
@@ -3460,7 +3536,7 @@
     "id": "582305c5-99b9-4f4e-a467-1923d152b2eb",
     "name": "Eudromia elegans",
     "thumbnail": "https://thichthucung.com/wp-content/uploads/meo-birman-2.jpg",
-    "type": "Birman",
+    "type" : "Dog", "breed": "Birman",
     "age": 6,
     "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",
     "sen": {
@@ -3468,6 +3544,8 @@
       "email": "ezappel10@mlb.com",
       "phone": "776-537-7466"
     },
+    "patients": 1,
+    "attended": 4,
     "certificate": [
       {
         "id": "EBP0-613R-AAEM-0J2A",
@@ -3532,7 +3610,7 @@
     "id": "142fd38e-0c62-47ff-bd5f-ee5e82d741eb",
     "name": "Ateles paniscus",
     "thumbnail": "https://petacy.com/wp-content/uploads/2019/10/meo-chartreux.jpg",
-    "type": "Chartreux",
+    "type" : "Dog", "breed": "Chartreux",
     "age": 1,
     "description": "Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
     "sen": {
@@ -3540,6 +3618,8 @@
       "email": "bneem11@wp.com",
       "phone": "122-469-2680"
     },
+    "patients": 3,
+    "attended": 9,
     "certificate": [
       {
         "id": "RKH5-7S03-88IT-JC40",
@@ -3629,7 +3709,7 @@
     "id": "88a2eef1-f870-4718-831a-364e00d5af41",
     "name": "Hippotragus niger",
     "thumbnail": "https://www.thesprucepets.com/thmb/Jv7OsGKXXrUpXOTY0lRqe2cTbao=/1881x1411/smart/filters:no_upscale()/BlueBritishShorthairwithGoldEyes-4734bd8247b04451b6da1994a3f62ae7.jpg",
-    "type": "British Shorthair",
+    "type" : "Dog", "breed": "British Shorthair",
     "age": 2,
     "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
     "sen": {
@@ -3637,6 +3717,8 @@
       "email": "fsevery12@economist.com",
       "phone": "224-606-3229"
     },
+    "patients": 5,
+    "attended": 4,
     "certificate": [
       {
         "id": "JLUZ-F1TA-LUUO-RJSG",
@@ -3741,7 +3823,7 @@
     "id": "ed36c4c2-be4b-475c-9ce3-0c2b9cb2c062",
     "name": "Parus atricapillus",
     "thumbnail": "https://huanluyenchothanhtai.com/wp-content/uploads/2019/07/cho-corgi-4.jpg",
-    "type": "Vallhunds",
+    "type" : "Dog", "breed": "Vallhunds",
     "age": 5,
     "description": "Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.",
     "sen": {
@@ -3749,6 +3831,8 @@
       "email": "acarus13@hexun.com",
       "phone": "123-665-3265"
     },
+    "patients": 3,
+    "attended": 8,
     "certificate": [
       {
         "id": "2NMA-HGJ7-9QH8-5IC9",
@@ -3883,7 +3967,7 @@
     "id": "1819c46c-f116-4ece-be09-f6917fdae84e",
     "name": "Columba livia",
     "thumbnail": "https://lh3.googleusercontent.com/proxy/O89igUfF1P-8WG5Jlls29AEPEaYSWL-xQQH7geuUFA7EHfe8xpQL3YB_A0ZEqr1j87fVDyl7Ye-LLxlczJXMiA1nFR1DF8gJchBBPZ2UECacG7Ey-g2MVjlnAF-7HGPG4p76DvCeCQsaXA",
-    "type": "Spitz",
+    "type" : "Dog", "breed": "Spitz",
     "age": 3,
     "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.",
     "sen": {
@@ -3891,6 +3975,8 @@
       "email": "hilsley14@ocn.ne.jp",
       "phone": "615-958-9041"
     },
+    "patients": 1,
+    "attended": 8,
     "certificate": [
       {
         "id": "3150-T394-I31E-JPIX",
@@ -3960,7 +4046,7 @@
     "id": "39a94f10-781a-4781-9e70-f1326e575207",
     "name": "Meleagris gallopavo",
     "thumbnail": "https://hoangphu2017.files.wordpress.com/2017/04/meo-con.jpg?w=640",
-    "type": "Devon Rex",
+    "type" : "Dog", "breed": "Devon Rex",
     "age": 7,
     "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
     "sen": {
@@ -3968,6 +4054,8 @@
       "email": "sjellico15@mapquest.com",
       "phone": "719-840-5339"
     },
+    "patients": 5,
+    "attended": 6,
     "certificate": [
       {
         "id": "9CY6-ZUS0-UNBI-UJGD",
@@ -4052,7 +4140,7 @@
     "id": "04eb7287-c6eb-4b2e-8f6c-31ff1bc11c05",
     "name": "Antechinus flavipes",
     "thumbnail": "https://vetstreet.brightspotcdn.com/dims4/default/424e475/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2F30%2Faa%2F471533e6415f8173d1e597356e6f%2FExotic-Shorthair-AP-0QUZVK-645sm3614.jpg",
-    "type": "Exotic Shorthair",
+    "type" : "Dog", "breed": "Exotic Shorthair",
     "age": 4,
     "description": "Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
     "sen": {
@@ -4060,6 +4148,8 @@
       "email": "gjillett16@xinhuanet.com",
       "phone": "313-218-9414"
     },
+    "patients": 3,
+    "attended": 3,
     "certificate": [
       {
         "id": "SVTQ-RWGV-DNE2-Y7J1",
@@ -4159,7 +4249,7 @@
     "id": "f908b70a-1c73-4b0f-9f5a-7a3e80da90af",
     "name": "Tachyglossus aculeatus",
     "thumbnail": "https://allthingsfoxes.com/wp-content/uploads/2020/03/red-foxes-1536x1026.jpg?ezimgfmt=ng:webp/ngcb1",
-    "type": "Red Fox",
+    "type" : "Dog", "breed": "Red Fox",
     "age": 1,
     "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.",
     "sen": {
@@ -4167,6 +4257,8 @@
       "email": "hgainsford17@theglobeandmail.com",
       "phone": "899-890-7047"
     },
+    "patients": 2,
+    "attended": 8,
     "certificate": [
       {
         "id": "72IN-SPRI-YUB9-NWZ8",
@@ -4286,7 +4378,7 @@
     "id": "4be1ace1-0e33-4922-b941-e7625104bfb6",
     "name": "Lasiodora parahybana",
     "thumbnail": "https://allthingsfoxes.com/wp-content/uploads/2020/03/Canva-Fox-Arctic1-1536x1042.jpg?ezimgfmt=ng:webp/ngcb1",
-    "type": "Arctic Fox",
+    "type" : "Dog", "breed": "Arctic Fox",
     "age": 7,
     "description": "Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
     "sen": {
@@ -4294,6 +4386,8 @@
       "email": "nkoppens18@dell.com",
       "phone": "842-303-1103"
     },
+    "patients": 3,
+    "attended": 6,
     "certificate": [
       {
         "id": "M81S-PZO3-DLDW-L77O",
@@ -4398,7 +4492,7 @@
     "id": "c225e487-7e16-4f5a-aa20-a9a3821bf8fb",
     "name": "Bugeranus caruncalatus",
     "thumbnail": "https://animals.sandiegozoo.org/sites/default/files/2016-10/fennec_fox_0.jpg",
-    "type": "Fennec Fox",
+    "type" : "Dog", "breed": "Fennec Fox",
     "age": 6,
     "description": "Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",
     "sen": {
@@ -4406,6 +4500,8 @@
       "email": "crevelle19@spiegel.de",
       "phone": "793-184-4422"
     },
+    "patients": 3,
+    "attended": 7,
     "certificate": [
       {
         "id": "EZP2-S62Q-84DL-T7VV",
@@ -4475,7 +4571,7 @@
     "id": "a8f5b75b-c344-4675-9abd-1e9a5cf93d0a",
     "name": "Lepilemur rufescens",
     "thumbnail": "https://www.diana-hunting.com/app/webroot/_resized/uploads/vildtarter/blegraev-525f412713d04f0edea72c80bb6b3769.jpg",
-    "type": "Pale Fox",
+    "type" : "Dog", "breed": "Pale Fox",
     "age": 4,
     "description": "Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
     "sen": {
@@ -4483,6 +4579,8 @@
       "email": "tgott1a@ameblo.jp",
       "phone": "314-871-6827"
     },
+    "patients": 1,
+    "attended": 1,
     "certificate": [
       {
         "id": "8S4S-C5KH-W0IE-46ET",
@@ -4577,7 +4675,7 @@
     "id": "fed8044e-e7bf-4d2f-b751-a9eb9da9cd9d",
     "name": "Suricata suricatta",
     "thumbnail": "https://cdn.globetrotting.com.au/wp-content/uploads/20190205103931/noriker-am.jpg",
-    "type": "Abtenauer",
+    "type" : "Dog", "breed": "Abtenauer",
     "age": 8,
     "description": "In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
     "sen": {
@@ -4585,6 +4683,8 @@
       "email": "rallerton1b@earthlink.net",
       "phone": "445-658-3541"
     },
+    "patients": 0,
+    "attended": 1,
     "certificate": [
       {
         "id": "BGA3-YKTF-JBYI-YROY",
@@ -4703,8 +4803,8 @@
   {
     "id": "c03d49f3-8d3e-444e-9533-bc830e0e60e2",
     "name": "Pseudalopex gymnocercus",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Wild_Pony_at_Assateague.jpg",
-    "type": "Assateague horses",
+    "thumbnail": "https://live.staticflickr.com/5444/6998806814_95bd1d9287_b.jpg",
+    "type" : "Dog", "breed": "Assateague horses",
     "age": 5,
     "description": "Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
     "sen": {
@@ -4712,6 +4812,8 @@
       "email": "lhasel1c@networksolutions.com",
       "phone": "637-184-3025"
     },
+    "patients": 2,
+    "attended": 9,
     "certificate": [
       {
         "id": "BMBU-0BR4-N71D-YVTA",
@@ -4796,7 +4898,7 @@
     "id": "08523bd5-4ff8-4e70-8706-aef91943b079",
     "name": "Shiba Inu",
     "thumbnail": "https://vcdn-vnexpress.vnecdn.net/2020/09/22/smilling-shiba-pics-1-5f684c7f-3655-6553-1600769370.jpg",
-    "type": "Basal",
+    "type" : "Dog", "breed": "Basal",
     "age": 3,
     "description": "Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
     "sen": {
@@ -4804,6 +4906,8 @@
       "email": "ehoppner1d@jugem.jp",
       "phone": "806-181-2902"
     },
+    "patients": 3,
+    "attended": 10,
     "certificate": [
       {
         "id": "7ESZ-9I6J-7AQP-9CSU",

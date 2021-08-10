@@ -1,7 +1,7 @@
 <template>
   <a>
     <div class="product-item">
-      <img class="product-img" :src="product.thumnail" />
+      <img class="product-img" :src="product.thumbnail" />
       <div class="product-info">
         <div class="product-name">
           {{ product.name }}

@@ -27,8 +27,5 @@ export default {
 .product-list {
   /* Flex */
   @apply flex flex-row flex-wrap justify-center;
-
-  /* Margin */
-  @apply mt-24 mb-20 ml-8;
 }
 </style>
