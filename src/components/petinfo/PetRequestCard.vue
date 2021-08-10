@@ -83,7 +83,8 @@ export default {
   @apply object-cover;
   
   /* Layout */
-  @apply w-44 h-32;
+  width: 250px;
+  height: 150px;
 
   /* Shape */
   @apply rounded-2xl;
@@ -95,7 +96,7 @@ export default {
   @apply w-full;
   
   /* Font */
-  font-family: "Open Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
   letter-spacing: .5px;
 
   /* Alignment */

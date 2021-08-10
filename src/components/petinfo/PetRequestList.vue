@@ -84,10 +84,10 @@ export default {
 
 .pet-request-list {
   /* Display */
-  @apply grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4;
+  @apply grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5;
 
   /* Layout */
-  @apply gap-x-0;
+  @apply gap-x-5;
   @apply gap-y-7;
 
   /* Margin */
