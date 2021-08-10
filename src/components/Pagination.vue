@@ -42,7 +42,7 @@ export default {
     @apply flex justify-center;
 
     /* Margin */
-    @apply mt-8;
+    @apply my-4;
 
     /* Font */
     font-family: "Quicksand", sans-serif;

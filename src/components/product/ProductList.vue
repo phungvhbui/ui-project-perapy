@@ -2,19 +2,16 @@
   <div class="product-list">
     <div v-for="item in productList" v-bind:key="item.id">
       <ProductItem v-bind:data="item" />
-      <CartButton />
     </div>
   </div>
 </template>
 
 <script>
 import ProductItem from "@/components/product/ProductItem";
-import CartButton from "@/components/ui/CartButton";
 export default {
   name: "ProductList",
   components: {
     ProductItem,
-    CartButton,
   },
   data() {
     return {

@@ -19,7 +19,7 @@ export default {
     }),
     
     methods: {
-      debounceSearch(event) {
+      onChangeSearchBarHandler(event) {
         this.message = null
         clearTimeout(this.debounce)
         this.debounce = setTimeout(() => {
@@ -36,12 +36,12 @@ export default {
     @apply flex justify-center;
 
     /* Margin */
-    @apply mx-4 mt-16;
+    @apply mx-4 my-8;
 }
 
 .navicon {
     /* Flex */
-    @apply flex items-center;
+    @apply flex align-middle;
 
     /* Position */
     @apply absolute left-12;
@@ -60,7 +60,8 @@ export default {
     @apply bg-gray-300;
 
     /* Size */
-    @apply w-96 h-10;
+    width: 800px;
+    height: 40px;
 
     /* Border */
     @apply border-gray-300 border rounded-3xl;
