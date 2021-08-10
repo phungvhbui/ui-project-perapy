@@ -17,62 +17,7 @@ export default {
   },
   data() {
     return {
-      petList: [
-        {
-            id: 1,
-            type: "Dog",
-            breed: "Samoyed",
-            name: "Charlotte",
-            patients: 1,
-            certificates: 1,
-            treatments: 3
-        },
-        {
-            id: 2,
-            type: "Dog",
-            breed: "Samoyed",
-            name: "Charlotte",
-            patients: 4,
-            certificates: 5,
-            treatments: 6
-        },
-        {
-            id: 3,
-            type: "Dog",
-            breed: "Samoyed",
-            name: "Charlotte",
-            patients: 1,
-            certificates: 2,
-            treatments: 3
-        },
-        {
-            id: 4,
-            type: "Dog",
-            breed: "Samoyed",
-            name: "Charlotte",
-            patients: 7,
-            certificates: 8,
-            treatments: 9
-        },
-        {
-            id: 5,
-            type: "Dog",
-            breed: "Samoyed",
-            name: "Charlotte WithTooLongName",
-            patients: 4,
-            certificates: 5,
-            treatments: 6
-        },
-        {
-            id: 6,
-            type: "Dog",
-            breed: "Samoyed",
-            name: "Charlotte",
-            patients: 1,
-            certificates: 2,
-            treatments: 3
-        }
-      ],
+      petList: petData,
     };
   },
 };
