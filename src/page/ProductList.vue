@@ -9,8 +9,8 @@
 
 <script>
 import ProductList from "@/components/product/ProductList";
-import Searchbar from "@/components/Toolbar";
-import Pagination from "@/components/Pagination";
+import Searchbar from "@/components/ui/Toolbar";
+import Pagination from "@/components/ui/Pagination";
 import CartButton from "@/components/ui/CartButton";
 export default {
   name: "Product",

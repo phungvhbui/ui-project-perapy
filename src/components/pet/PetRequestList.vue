@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import PetRequestCard from "@/components/petinfo/PetRequestCard";
+import PetRequestCard from "@/components/pet/PetRequestCard";
 import petData from "@/assets/data/pet_info.json";
 
 export default {
