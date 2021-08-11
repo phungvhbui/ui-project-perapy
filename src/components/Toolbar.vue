@@ -1,84 +1,91 @@
 <template>
-    <nav class="toolbar">
-        <span class="navicon">
-            <i class="fa fa-bars"></i>
-        </span>
-        <span class="searchbox">
-            <input class="searchfield" @input="debounceSearch" type="text" placeholder="Search products..."/>
-            <i class="icon fas fa-search"></i>
-        </span>
-    </nav>
-    
+  <nav class="toolbar">
+    <span class="navicon">
+      <i class="fa fa-bars icon-cat"></i>
+    </span>
+    <span class="searchbox">
+      <input
+        class="searchfield"
+        @input="debounceSearch"
+        type="text"
+        placeholder="Search products..."
+      />
+      <i class="icon fas fa-search"></i>
+    </span>
+  </nav>
 </template>
 
 <script>
 export default {
-    data: () => ({
-      message: null,
-      debounce: null,
-    }),
-    
-    methods: {
-      onChangeSearchBarHandler(event) {
-        this.message = null
-        clearTimeout(this.debounce)
-        this.debounce = setTimeout(() => {
-          this.message = event.target.value
-        }, 600)
-      }
-    }
-}
+  data: () => ({
+    message: null,
+    debounce: null,
+  }),
+
+  methods: {
+    onChangeSearchBarHandler(event) {
+      this.message = null;
+      clearTimeout(this.debounce);
+      this.debounce = setTimeout(() => {
+        this.message = event.target.value;
+      }, 600);
+    },
+  },
+};
 </script>
 
 <style scoped>
 .toolbar {
-    /* Alignment */
-    @apply flex justify-center;
+  /* Alignment */
+  @apply flex justify-center;
 
-    /* Margin */
-    @apply mx-4 my-8;
+  /* Margin */
+  @apply mx-4 mt-8 mb-20;
 }
 
 .navicon {
-    /* Flex */
-    @apply flex align-middle;
+  /* Flex */
+  @apply flex align-middle;
 
-    /* Position */
-    @apply absolute left-12;
+  /* Position */
+  @apply absolute left-12;
 }
 
 .searchbox {
-    /* Font */
-    font-family: "Quicksand", sans-serif;
+  /* Font */
+  font-family: "Quicksand", sans-serif;
 
-    /* Position */
-    @apply relative;
+  /* Position */
+  @apply relative;
 }
 
 .searchfield {
-    /* Background */
-    @apply bg-gray-300;
+  /* Background */
+  @apply bg-gray-300;
 
-    /* Size */
-    width: 800px;
-    height: 40px;
+  /* Size */
+  width: 800px;
+  height: 40px;
 
-    /* Border */
-    @apply border-gray-300 border rounded-3xl;
+  /* Border */
+  @apply border-gray-300 border rounded-3xl;
 
-    /* Padding */
-    @apply px-2;
+  /* Padding */
+  @apply px-2;
 
-    /* Text Indent */
-    @apply pl-10;
+  /* Text Indent */
+  @apply pl-10;
 
-    /* Text size */
-    @apply text-sm;
+  /* Text size */
+  @apply text-sm;
+
+  /* Outline */
+  @apply outline-none;
 }
 
 .icon {
-    /* Position */
-    @apply absolute left-4 top-3;
+  /* Position */
+  @apply absolute left-4 top-3;
 }
 
 @keyframes hoverOn {
@@ -99,9 +106,9 @@ export default {
 }
 
 .navicon:hover {
-    /* Cursor */
+  /* Cursor */
   @apply cursor-pointer;
-  
+
   /* Color */
   color: gray;
 
@@ -111,9 +118,9 @@ export default {
 }
 
 .navicon {
-    /* Cursor */
+  /* Cursor */
   @apply cursor-pointer;
-  
+
   /* Color */
   color: black;
 
