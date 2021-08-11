@@ -70,7 +70,7 @@ export default {
     @apply px-2;
 
     /* Text Indent */
-    @apply pl-8;
+    @apply pl-10;
 
     /* Text size */
     @apply text-sm;
@@ -78,7 +78,7 @@ export default {
 
 .icon {
     /* Position */
-    @apply absolute left-2 top-3;
+    @apply absolute left-4 top-3;
 }
 
 @keyframes hoverOn {

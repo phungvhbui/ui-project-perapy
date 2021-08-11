@@ -61,7 +61,7 @@ export default {
     @apply bg-white;
 
     /* Border */
-    @apply border-black border-2 rounded-md;
+    @apply border border-black rounded-md;
 
     /* Margin */
     @apply mx-1;

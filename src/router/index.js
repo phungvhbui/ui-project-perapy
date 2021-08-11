@@ -21,6 +21,11 @@ const routes = [
         name: 'Pet Therapy',
         component: () => import(/* webpackChunkName: "therapy" */ '../page/PetList.vue')
     },
+    {
+        path: '/cart',
+        name: 'Cart',
+        component: () => import(/* webpackChunkName: "therapy" */ '../page/Cart.vue')
+    },
 ]
 
 const router = createRouter({

@@ -69,7 +69,7 @@ export default {
     @apply grid grid-cols-2;
     
     /* Font */
-    font-family: "Open Sans", sans-serif;
+    font-family: "Quicksand", sans-serif;
 
     /* Size */
     @apply text-2xl;
@@ -91,7 +91,7 @@ export default {
     @apply grid grid-cols-2;
     
     /* Font */
-    font-family: "Open Sans", sans-serif;
+    font-family: "Quicksand", sans-serif;
 
     /* Font weight */
     @apply font-semibold;
@@ -128,10 +128,10 @@ export default {
     @apply mr-10;
 
     /* Font */
-    font-family: "Open Sans", sans-serif;
+    font-family: "Quicksand", sans-serif;
 
     /* Text size */
-    @apply text-3xl font-bold;
+    @apply text-xl font-bold;
 
     /* Color */
     @apply text-white;
@@ -143,6 +143,6 @@ export default {
     @apply bg-blue-500;
 
     /* Padding */
-    @apply p-3;
+    @apply py-4 px-8;
 }
 </style>
