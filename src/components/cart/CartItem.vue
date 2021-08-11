@@ -107,7 +107,7 @@ export default {
   @apply overflow-ellipsis overflow-hidden break-words;
 
   /* Font */
-  font-family: "Open Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
   @apply font-semibold text-xl;
 
   /* Margin */
@@ -193,7 +193,7 @@ export default {
   /* Starting point */
   @apply col-start-3 row-start-1; 
   /* Font */
-  font-family: "Open Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
   @apply font-bold text-2xl;
 
   @apply block justify-self-center self-center;
