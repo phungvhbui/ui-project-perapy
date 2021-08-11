@@ -4,28 +4,23 @@ const routes = [
     {
         path: '/',
         name: 'Home',
-        component: () => import(/* webpackChunkName: "about" */ '../page/Home.vue')
+        component: () => import(/* webpackChunkName: "home" */ '../page/Home.vue')
+    },
+    {
+        path: '/services',
+        name: 'Services',
+        component: () => import(/* webpackChunkName: "services" */ '../page/Services.vue')
     },
     {
         path: '/products',
         name: 'Products',
-        component: () => import(/* webpackChunkName: "about" */ '../page/ProductList.vue')
+        component: () => import(/* webpackChunkName: "product" */ '../page/ProductList.vue')
     },
     {
         path: '/therapy',
         name: 'Pet Therapy',
-        component: () => import(/* webpackChunkName: "about" */ '../page/PetList.vue')
+        component: () => import(/* webpackChunkName: "therapy" */ '../page/PetList.vue')
     },
-    {
-        path: '/therapy/pet-detail',
-        name: 'Pet Therapy Detail',
-        component: () => import(/* webpackChunkName: "about" */ '../page/PetDetail.vue')
-    },
-    {
-        path: '/cart',
-        name: 'CartButton',
-        component: () => import(/* webpackChunkName: "about" */ '../page/Cart.vue')
-    }
 ]
 
 const router = createRouter({
