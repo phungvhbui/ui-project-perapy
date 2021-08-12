@@ -1,9 +1,6 @@
 <template>
   <div class="product-detail-container">
-    <img
-      class="product-img"
-      src="https://i.pinimg.com/originals/8e/d2/34/8ed2347633e4dc68c4d709f16bd41ecc.jpg"
-    />
+    <img class="product-img" :src="data.thumbnail" />
     <div class="product-info">
       <div class="product-name">
         {{ data.name }}
@@ -13,46 +10,51 @@
       </div>
       <div class="product-rating">
         <div class="star-rating">
-          <a><i class="fas fa-star"/></a>
-          <a><i class="fas fa-star"/></a>
-          <a><i class="fas fa-star"/></a>
-          <a><i class="fas fa-star"/></a>
-          <a><i class="fas fa-star"/></a>
+          <star-rating
+            v-bind:increment="0.5"
+            v-bind:rating="data.aveRating"
+            v-bind:max-rating="5"
+            v-bind:show-rating="false"
+            v-bind:read-only="true"
+            border-color="#000"
+            border-active-color="#000"
+            active-color="#000"
+            v-bind:star-size="20"
+          >
+          </star-rating>
         </div>
         <div class="number-rating">
-          {{ data.numberRating }}
+          {{ data.aveRating }}
         </div>
       </div>
       <div class="product-price">${{ data.price }}</div>
-      <Button :class="addToCart">Add to cart</Button>
+      <Button :class="addToCart" @click="addToCart">Add to cart</Button>
     </div>
   </div>
 </template>
 
 <script>
 import Button from "@/components/reuseable-component/Button";
+import StarRating from "vue-star-rating";
 
 
 export default {
   name: "ProductDetail",
+  props: ["info"],
   data() {
     return {
-      data: {
-        name: "Loundraw",
-        description: "Author",
-        price: 69.42,
-        numberRating: "12,345",
-      },
+      data: this.info
     };
   },
   components: {
     Button,
+    StarRating,
   },
   computed: {
     addToCart() {
-      return 'add-to-cart'
-    }
-  }
+      return "add-to-cart";
+    },
+  },
 };
 </script>
 
@@ -98,7 +100,7 @@ export default {
   @apply font-bold text-4xl;
 
   /* Margin */
-  @apply my-2;
+  @apply my-4;
 }
 
 .product-description {
@@ -106,7 +108,7 @@ export default {
   @apply font-bold text-2xl;
 
   /* Margin */
-  @apply mb-2;
+  @apply mb-4;
 }
 
 .product-rating {
@@ -114,7 +116,7 @@ export default {
   @apply flex flex-row;
 
   /* Margin */
-  @apply mb-2;
+  @apply mb-4;
 }
 
 .star-rating {
@@ -137,7 +139,7 @@ export default {
   @apply font-bold text-3xl;
 
   /* Margin */
-  @apply mb-2;
+  @apply mb-4;
 }
 
 .add-to-cart {
