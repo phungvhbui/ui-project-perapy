@@ -315,7 +315,7 @@ textarea::-webkit-scrollbar-thumb {
   @apply justify-between;
 
   /* Margin */
-  @apply mt-3;
+  @apply mt-4;
 }
 
 .pet-detail-data-request-status {
