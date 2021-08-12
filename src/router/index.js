@@ -17,8 +17,13 @@ const routes = [
         component: () => import(/* webpackChunkName: "product" */ '../page/ProductList.vue')
     },
     {
+        path: '/products/:productId',
+        name: 'ProductDetail',
+        component: () => import(/* webpackChunkName: "productDetail" */ '../page/ProductDetail.vue')
+    },
+    {
         path: '/therapy',
-        name: 'Pet Therapy',
+        name: 'PetTherapy',
         component: () => import(/* webpackChunkName: "therapy" */ '../page/PetList.vue')
     },
     {
@@ -28,12 +33,12 @@ const routes = [
     },
     {
         path: '/therapy/:petId',
-        name: 'Pet Detail',
+        name: 'PetDetail',
         component: () => import(/* webpackChunkName: "therapy" */ '../page/PetDetail.vue')
     },
     {
         path: '/shippinginfo',
-        name: 'Shipping Info',
+        name: 'ShippingInfo',
         component: () => import(/* webpackChunkName: "therapy" */ '../page/ShippingInfo.vue')
     }
 ]
