@@ -22,7 +22,17 @@
 
 <script>
 export default {
-    
+    props: ["cartList"],
+    data() {
+        return {
+            data: this.cartList
+        }
+    },
+    computed: {
+        // getTotalPrice() {
+        //     const reducer = (accumulator, currentValue) => accumulator + currentValue;
+        // }  
+    }
 }
 </script>
 
