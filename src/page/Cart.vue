@@ -2,9 +2,9 @@
   <div class="page-container">
     <div class="cart-info">
       <CartHeading>Cart</CartHeading>
-      <CartList />
+      <CartList :list="cartList"/>
     </div>
-    <CartSummary :cartList="cartList" />
+    <CartSummary :list="cartList"/>
   </div>
 </template>
 
