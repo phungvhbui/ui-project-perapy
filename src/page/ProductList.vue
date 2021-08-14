@@ -62,7 +62,6 @@ export default {
       this.total = items.length;
       this.totalPages = total_pages;
       this.pageOfProducts = paginatedItems;
-      console.log(this.pageOfProducts);
     },
   },
 };

@@ -1,6 +1,9 @@
 <template>
   <div class="product-detail-container">
-    <img class="product-img" :src="data.thumbnail" />
+    <img
+      class="product-img"
+      :src="data.thumbnail"
+    />
     <div class="product-info">
       <div class="product-name">
         {{ data.name }}
@@ -36,7 +39,6 @@
 <script>
 import Button from "@/components/reuseable-component/Button";
 import StarRating from "vue-star-rating";
-
 
 export default {
   name: "ProductDetail",
@@ -79,10 +81,6 @@ export default {
   width: 540px;
   height: 540px;
 
-  /* Center crop */
-  object-fit: none; /* Do not scale the image */
-  object-position: center; /* Center the image within the element */
-
   /* Rounding */
   @apply rounded-full;
 }
@@ -92,7 +90,7 @@ export default {
   @apply ml-16;
 
   /* Font */
-  font-family: "Open Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .product-name {
