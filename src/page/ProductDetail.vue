@@ -6,7 +6,8 @@
         name: data.name,
         thumbnail: data.thumbnail,
         price: data.price,
-        rating: data.rating,
+        rating: data.numberRating,
+        aveRating: data.rating_stars,
         category: data.category,
         subCategory: data.sub_category,
       }"
@@ -31,12 +32,19 @@
         <ProductFeedbackList :info="data.feedbacks" />
       </div>
       <div v-else>
-        <ProductDescription :info="{shortDescription: data.short_description, longDescription: data.long_description, ingredients: data.ingredients}" />
+        <ProductDescription
+          :info="{
+            shortDescription: data.short_description,
+            longDescription: data.long_description,
+            ingredients: data.ingredients,
+          }"
+        />
       </div>
     </div>
 
     <Heading>You might Also like</Heading>
     <Container><ProductSuggestionList /></Container>
+    <CartButton />
   </div>
 </template>
 
@@ -48,6 +56,7 @@ import ProductSuggestionList from "@/components/product/ProductSuggestionList";
 import ProductFeedbackList from "@/components/product/ProductFeedbackList";
 import ProductDescription from "@/components/product/ProductDescription";
 import productData from "@/assets/data/product.json";
+import CartButton from "@/components/ui/CartButton";
 
 export default {
   name: "ProductDetailPage",
@@ -58,6 +67,7 @@ export default {
     ProductSuggestionList,
     ProductFeedbackList,
     ProductDescription,
+    CartButton,
   },
   data() {
     return {
@@ -96,7 +106,6 @@ export default {
       this.error = this.data = null;
       this.loading = true;
       const fetchedId = this.$route.params.productId;
-      console.log(fetchedId);
       productData.forEach((product) => {
         if (product.id === fetchedId) {
           res = product;
