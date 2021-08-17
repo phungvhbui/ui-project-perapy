@@ -2,7 +2,7 @@
   <div class="cart-list">
     <div v-if="cartList.length > 0" class="inner">
       <div v-for="item in cartList" v-bind:key="item.id">
-        <CartItem v-bind:data="item" v-on:remove="removeProduct" />
+        <CartItem v-bind:data="item"/>
       </div>
     </div>
     <div v-else class="inner-alt">
@@ -18,50 +18,14 @@ export default {
   components: {
     CartItem,
   },
-  data() {
-    return {
-      cartList: [
-        {
-          id: "p1",
-          name: "Long Long Long Long Long Product Name",
-          quantity: 3,
-          price: 64,
-        },
-        {
-          id: "p2",
-          name: "Mjornir",
-          quantity: 1,
-          price: 2,
-        },
-        {
-          id: "p3",
-          name: "Zephyr",
-          quantity: 69,
-          price: 4,
-        },
-        {
-          id: "p4",
-          name: "Rick",
-          quantity: 31,
-          price: 14.77,
-        },
-        {
-          id: "p5",
-          name: "Rolled",
-          quantity: 32,
-          price: 114,
-        },
-      ],
-    };
+  computed: {
+    cartList() {
+      return this.$store.getters.cartList;
+    }
   },
   methods: {
     removeProduct(id) {
-      console.log(id);
-      const filteredList = this.cartList.filter((item) => {
-        return item.id !== id;
-      });
-      console.log(filteredList);
-      this.cartList = filteredList;
+      this.$store.dispatch("removeProduct", id);
     },
   },
 };

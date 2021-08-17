@@ -44,8 +44,6 @@ export default {
     changeButtonDisplay() {
       const button = document.querySelector(".cart-btn");
       const footer = document.querySelector(".footer");
-      // const pageHeight = this.getPageHeight();
-      // console.log(pageHeight);
       const rectTop = (el) => {
         const rect = el.getBoundingClientRect();
         return rect.top;

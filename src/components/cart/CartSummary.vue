@@ -4,16 +4,16 @@
     <div class="summary-content">
       <div class="cart-price">
         <span class="label">Cart Price</span>
-        <span class="price">$419.76</span>
+        <span class="price">${{ calculateTotal }}</span>
       </div>
       <div class="cart-price">
         <span class="label">Shipping Fee</span>
-        <span class="price">$1</span>
-      </div>
+        <span class="price">${{shippingFee}}</span>
+      </div> 
       <div class="divider"></div>
       <div class="total-price">
         <span class="label">Total</span>
-        <span class="price">$420.76</span>
+        <span class="price">${{calculateTotal + shippingFee}}</span>
       </div>
     </div>
     <button type="submit" class="checkout-button" @click="navigate">
@@ -27,6 +27,21 @@ export default {
   methods: {
     navigate() {
       this.$router.push({ name: "Shipping" });
+    },
+  },
+  data() {
+    return {
+      shippingFee: 1,
+    };
+  },
+  computed: {
+    cartList() {
+      return this.$store.getters.cartList;
+    },
+    calculateTotal() {
+      return Math.round(this.cartList.reduce((accumulator, currentValue) => {
+        return accumulator + currentValue.price * currentValue.quantity;
+      }, 0) * 100) / 100 
     },
   },
 };

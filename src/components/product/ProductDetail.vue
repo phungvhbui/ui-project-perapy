@@ -1,9 +1,6 @@
 <template>
   <div class="product-detail-container">
-    <img
-      class="product-img"
-      :src="data.thumbnail"
-    />
+    <img class="product-img" :src="data.thumbnail" />
     <div class="product-info">
       <div class="product-name">
         {{ data.name }}
@@ -31,7 +28,7 @@
         </div>
       </div>
       <div class="product-price">${{ data.price }}</div>
-      <Button :class="addToCart" @click="addToCart">Add to cart</Button>
+      <Button :class="addToCart" @click="addProductToCart">Add to cart</Button>
     </div>
   </div>
 </template>
@@ -45,12 +42,23 @@ export default {
   props: ["info"],
   data() {
     return {
-      data: this.info
+      data: this.info,
     };
   },
   components: {
     Button,
     StarRating,
+  },
+  methods: {
+    addProductToCart() {
+      const product = {
+        id: this.data.id,
+        thumbnail: this.data.thumbnail,
+        name: this.data.name,
+        price: this.data.price,
+      };
+      this.$store.dispatch("addProductToCart", product);
+    },
   },
   computed: {
     addToCart() {

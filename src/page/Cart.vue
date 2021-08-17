@@ -2,9 +2,9 @@
   <div class="page-container">
     <div class="cart-info">
       <CartHeading>Cart</CartHeading>
-      <CartList />
+      <CartList/>
     </div>
-    <CartSummary />
+    <CartSummary/>
   </div>
 </template>
 
