@@ -9,7 +9,7 @@ const store = createStore({
 
     getters: {
         cartList: state => {
-            if(state.cartList.length === 0) {
+            if (state.cartList.length === 0) {
                 console.log("Blank");
             }
             return state.cartList;
@@ -42,15 +42,13 @@ const store = createStore({
                     quantity: 1,
                     totalPrice: newProduct.price
                 });
-                console.log("Not exist");
+                state.totalQuantity++;
+                state.changed = true;
             }
             else {
                 existingProduct.totalPrice = Math.round((existingProduct.totalPrice + existingProduct.price) * 100) / 100;
                 existingProduct.quantity++;
-                console.log("Existed");
             }
-            state.totalAmount++;
-            state.changed = true;
         },
 
         removeProduct(state, removeProductId) {
@@ -58,8 +56,6 @@ const store = createStore({
             state.cartList = state.cartList.filter(product => product.id !== removeProductId);
             state.totalQuantity--;
             state.changed = true;
-
-            console.log(state.cartList);
         },
 
         increaseProductQuantity(state, increasedProductId) {
