@@ -88,8 +88,7 @@ export default {
 
   /* Text */
   font-family: "Quicksand", sans-serif;
-  @apply text-gray-500;
-  @apply font-light;
+  @apply text-gray-700;
 
   /* Margin */
   @apply mx-14 my-2;
@@ -125,7 +124,7 @@ export default {
 
 @keyframes hoverOn {
   from {
-    color: gray;
+    @apply text-gray-700;
   }
   to {
     color: white;
@@ -136,7 +135,7 @@ export default {
     color: white;
   }
   to {
-    color: gray;
+    @apply text-gray-700;
   }
 }
 
@@ -150,9 +149,6 @@ export default {
 }
 
 .topics a {
-  /* Color */
-  color: gray;
-
   /* Animation */
   animation-name: hoverOff;
   animation-duration: 0.2s;
