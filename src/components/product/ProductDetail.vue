@@ -1,6 +1,8 @@
 <template>
   <div>
-    <Modal v-if="isOpen" @closingModal="addProductToCart">Product has been added into your cart.</Modal>
+    <Modal v-if="isOpen" @closingModal="closingModal"
+      >Product has been added into your cart.</Modal
+    >
     <div class="product-detail-container">
       <img class="product-img" :src="data.thumbnail" />
       <div class="product-info">
@@ -30,7 +32,9 @@
           </div>
         </div>
         <div class="product-price">${{ data.price }}</div>
-        <Button :class="addToCart" @click="addProductToCart">Add to cart</Button>
+        <Button :class="addToCart" @click="addProductToCart"
+          >Add to cart</Button
+        >
       </div>
     </div>
   </div>
@@ -39,7 +43,7 @@
 <script>
 import Button from "@/components/reuseable-component/Button";
 import StarRating from "vue-star-rating";
-import Modal from '@/components/reuseable-component/Modal'
+import Modal from "@/components/reuseable-component/Modal";
 
 export default {
   name: "ProductDetail",
@@ -53,18 +57,28 @@ export default {
   components: {
     Button,
     StarRating,
-    Modal
+    Modal,
+  },
+  methods: {
+    addProductToCart() {
+      const product = {
+        id: this.data.id,
+        thumbnail: this.data.thumbnail,
+        name: this.data.name,
+        price: this.data.price,
+      };
+      this.$store.dispatch("addProductToCart", product);
+      this.isOpen = !this.isOpen;
+    },
+    closingModal() {
+      this.isOpen = !this.isOpen;
+    },
   },
   computed: {
     addToCart() {
       return "add-to-cart";
     },
   },
-  methods: {
-    addProductToCart() {
-      this.isOpen = !this.isOpen;
-    },
-  }
 };
 </script>
 
