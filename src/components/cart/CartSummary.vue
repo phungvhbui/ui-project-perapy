@@ -162,7 +162,28 @@ export default {
   /* Background */
   @apply bg-blue-500;
 
-  /* Padding */
-  @apply py-4 px-8;
+    /* Padding */
+    @apply py-4 px-8;
+
+    /* Transition */
+    transition: 0.2s;
+}
+
+.checkout-button:hover {
+    /* Background Hover */
+    @apply bg-gray-400;
+
+    /* Border Hover */
+    @apply border-gray-400;
+}
+
+.fade-enter-active, .fade-leave-active {
+    /* Transition */
+    @apply transition-opacity;
+}
+
+.fade-enter, .fade-leave-active {
+    /* Opacity */
+    opacity: 0;
 }
 </style>

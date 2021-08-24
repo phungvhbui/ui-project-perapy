@@ -23,9 +23,30 @@
           >
           </star-rating>
         </div>
-        <div class="number-rating">
-          {{ data.aveRating }}
+        <div class="product-description">
+          {{ data.description }}
         </div>
+        <div class="product-rating">
+          <div class="star-rating">
+            <star-rating
+              v-bind:increment="0.5"
+              v-bind:rating="data.aveRating"
+              v-bind:max-rating="5"
+              v-bind:show-rating="false"
+              v-bind:read-only="true"
+              border-color="#000"
+              border-active-color="#000"
+              active-color="#000"
+              v-bind:star-size="20"
+            >
+            </star-rating>
+          </div>
+          <div class="number-rating">
+            {{ data.aveRating }}
+          </div>
+        </div>
+        <div class="product-price">${{ data.price }}</div>
+        <Button :class="addToCart" @click="addProductToCart">Add to cart</Button>
       </div>
       <div class="product-price">${{ data.price }}</div>
       <Button :class="addToCart" @click="addProductToCart">Add to cart</Button>
@@ -36,6 +57,7 @@
 <script>
 import Button from "@/components/reuseable-component/Button";
 import StarRating from "vue-star-rating";
+import Modal from '@/components/reuseable-component/Modal'
 
 export default {
   name: "ProductDetail",
@@ -48,6 +70,7 @@ export default {
   components: {
     Button,
     StarRating,
+    Modal
   },
   methods: {
     addProductToCart() {
@@ -65,6 +88,11 @@ export default {
       return "add-to-cart";
     },
   },
+  methods: {
+    addProductToCart() {
+      this.isOpen = !this.isOpen;
+    },
+  }
 };
 </script>
 
