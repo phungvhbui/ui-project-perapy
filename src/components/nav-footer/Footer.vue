@@ -4,7 +4,7 @@
       <div class="dev-info">
         <img
           class="web-logo"
-          src="https://avatars.githubusercontent.com/u/47271466?s=48&v=4"
+          src="@/assets/Perapy_Logo_-_Final.png"
         />
         <h1 class="web-name">Perapy</h1>
         <div class="web-credit">@FitHCMUS - 18KTPM - Group06</div>
