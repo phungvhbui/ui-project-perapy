@@ -59,6 +59,7 @@ footer {
 
   /* Sizing */
   @apply w-full;
+  height: 170px;
 
   /* Positioning */
   @apply absolute;
@@ -71,6 +72,7 @@ footer {
   /* Margin */
   @apply mx-12;
 
+  height: inherit;
   /* Flex */
   @apply flex flex-row justify-between;
 }
@@ -135,7 +137,7 @@ footer {
   @apply break-words;
 
   /* Centering */
-  @apply self-center;
+  @apply self-end;
 }
 
 .location-icon {
@@ -159,7 +161,7 @@ footer {
   @apply mr-2;
 
   /* Centering */
-  @apply self-center;
+  @apply self-end;
 }
 
 .tel-icon {
@@ -171,6 +173,6 @@ footer {
   @apply mr-2;
 
   /* Centering */
-  @apply self-center;
+  @apply self-end;
 }
 </style>
