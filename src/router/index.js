@@ -29,17 +29,11 @@ const routes = [
                 path: '',
                 name: 'ProductList',
                 component: () => import(/* webpackChunkName: "product" */ '../page/ProductList.vue'),
-                meta: {
-                    title: 'Products'
-                },
             },
             {
                 path: ':productId',
                 name: 'ProductDetail',
                 component: () => import(/* webpackChunkName: "product" */ '../page/ProductDetail.vue'),
-                meta: {
-                    title: ''
-                },
             },
             {
                 path: 'cart',
@@ -66,22 +60,16 @@ const routes = [
         meta: {
             title: "Pet Therapy",
         },
-        children: [ 
+        children: [
             {
                 path: ':petId',
                 name: 'PetDetail',
                 component: () => import(/* webpackChunkName: "therapy" */ '../page/PetDetail.vue'),
-                meta: {
-                    title: ''
-                },
             },
             {
                 path: '',
                 name: 'PetList',
                 component: () => import(/* webpackChunkName: "therapy" */ '../page/PetList.vue'),
-                meta: {
-                    title: 'Pet Therapy'
-                },
             }
         ]
     }
@@ -98,52 +86,43 @@ router.beforeEach((to, from, next) => {
     // e.g., if we have `/some/deep/nested/route` and `/some`, `/deep`, and `/nested` have titles,
     // `/nested`'s will be chosen.
     const nearestWithTitle = to.matched.slice().reverse().find(r => r.meta && r.meta.title);
-  
+
     // Find the nearest route element with meta tags.
     const nearestWithMeta = to.matched.slice().reverse().find(r => r.meta && r.meta.metaTags);
-  
+
     const previousNearestWithMeta = from.matched.slice().reverse().find(r => r.meta && r.meta.metaTags);
-  
+
     // If a route with a title was found, set the document (page) title to that value.
-    if(nearestWithTitle) {
-        if (nearestWithTitle.meta.title === '') {
-            let petname = document.getElementsByClassName("pet-detail-data-name");
-            console.log(petname);
-            if (petname.length !== 0) {
-                document.title = petname[0].innerText;
-            } 
-        } else {
-            document.title = nearestWithTitle.meta.title;
-            console.log(1);
-        }
-    } else if(previousNearestWithMeta) {
+    if (nearestWithTitle) {
+        let title = nearestWithTitle.meta.title;
+        document.title = title;
+    } else if (previousNearestWithMeta) {
         document.title = previousNearestWithMeta.meta.title;
-        console.log(2);
     }
-  
+
     // Remove any stale meta tags from the document using the key attribute we set below.
     Array.from(document.querySelectorAll('[data-vue-router-controlled]')).map(el => el.parentNode.removeChild(el));
-  
+
     // Skip rendering meta tags if there are none.
-    if(!nearestWithMeta) return next();
-  
+    if (!nearestWithMeta) return next();
+
     // Turn the meta tag definitions into actual elements in the head.
     nearestWithMeta.meta.metaTags.map(tagDef => {
-      const tag = document.createElement('meta');
-  
-      Object.keys(tagDef).forEach(key => {
-        tag.setAttribute(key, tagDef[key]);
-      });
-  
-      // We use this to track which meta tags we create so we don't interfere with other ones.
-      tag.setAttribute('data-vue-router-controlled', '');
-  
-      return tag;
+        const tag = document.createElement('meta');
+
+        Object.keys(tagDef).forEach(key => {
+            tag.setAttribute(key, tagDef[key]);
+        });
+
+        // We use this to track which meta tags we create so we don't interfere with other ones.
+        tag.setAttribute('data-vue-router-controlled', '');
+
+        return tag;
     })
-    // Add the meta tags to the document head.
-    .forEach(tag => document.head.appendChild(tag));
-  
+        // Add the meta tags to the document head.
+        .forEach(tag => document.head.appendChild(tag));
+
     next();
-  });
+});
 
 export default router
