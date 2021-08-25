@@ -5,7 +5,7 @@
         <div class="logo">
           <img
             class="web-logo"
-            src="@/assets/Perapy_Logo_-_Final.png"
+            src="@/assets/icons/logo.png"
           />
         </div>
         <div class="topics">
