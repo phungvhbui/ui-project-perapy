@@ -91,15 +91,39 @@
       <div class="pet-detail-suggestion-content">
         <div class="pet-detail-suggestion-content-1">
           <img src="..\..\assets\pet-images\pet-1.jpg" alt="" />
-          <p>Mary CharlotteWithAReallyLongLongLongName</p>
+          <div class="pet-detail-suggestion-info">
+            <p>Mary CharlotteWithAReallyLongLongLongName</p>
+            <p>
+              <span>
+                <div class="icon"> <i class="fas fa-phone-alt"></i> </div>
+              </span>
+              09878988987 
+            </p>
+          </div>
         </div>
         <div class="pet-detail-suggestion-content-2">
           <img src="..\..\assets\pet-images\pet-1.jpg" alt="" />
-          <p>Mary Charlotte</p>
+          <div class="pet-detail-suggestion-info">
+            <p>Mary CharlotteReallyLongLongLong</p>
+            <p>
+              <span>
+                <div class="icon"> <i class="fas fa-phone-alt"></i> </div>
+              </span>
+              09878988987 
+            </p>
+          </div>
         </div>
         <div class="pet-detail-suggestion-content-3">
           <img src="..\..\assets\pet-images\pet-1.jpg" alt="" />
-          <p>Mary Charlotte</p>
+          <div class="pet-detail-suggestion-info">
+            <p>Mary Charlotte</p>
+            <p>
+              <span>
+                <div class="icon"> <i class="fas fa-phone-alt"></i> </div>
+              </span>
+              09878988987 
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -429,6 +453,27 @@ textarea::-webkit-scrollbar-thumb {
 
   /* Alignment */
   @apply text-left;
+}
+
+.pet-detail-suggestion-info {
+  /* Display */
+  @apply flex flex-col;
+
+  /* Layout */
+  @apply justify-center;
+  @apply content-start;
+  @apply items-start;
+
+  @apply gap-y-2;
+
+  @apply w-full;
+
+  @apply text-left;
+}
+
+.pet-detail-suggestion-info .icon {
+  /* Margin */
+  @apply mr-2;
 }
 
 .pet-detail-suggestion-content-1 img,

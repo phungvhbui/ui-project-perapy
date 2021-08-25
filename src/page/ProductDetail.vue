@@ -165,7 +165,6 @@ export default {
       this.total = items.length;
       this.totalPages = total_pages;
       this.pageOfFeedbacks = paginatedItems;
-      // console.log(this.pageOfFeedbacks);
     },
   },
 };
